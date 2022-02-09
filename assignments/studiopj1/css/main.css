@@ -135,7 +135,7 @@ a{
 
 .box{
   margin-left: 22%;
-  margin-top: 5%;
+  margin-top: 15%;
   width: 50%;
   font-family: reg;
   font-size: 24pt;
@@ -146,4 +146,11 @@ a{
   font-family: reg;
   font-size: 14pt;
   color: white;
+}
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
