@@ -1,6 +1,53 @@
 body{
     background: url(https://assets.theoceancleanup.com/app/uploads/2021/08/Large-210823_Oceans_Systems_02_Drone_DL8-scaled.jpg) center center
     no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+@font-face{
+    font-family: col;
+    src: url(regular.ttf);
+  }
+
+html, body{
+    min-height: 100%;
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action{
+    display: flex;
+}
+
+.call-to-action h1{
+    display: flex;
+    font-family: col;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.call-to-action a{
+    background: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: col;
+    text-transform: uppercase;
+}
+
+@media (min-width: 813px) {
+        
+    .call-to-action h1{
+        display: flex;
+        font-family: col;
+        text-transform: uppercase;
+        font-size: 80px;
+    }    
 }
