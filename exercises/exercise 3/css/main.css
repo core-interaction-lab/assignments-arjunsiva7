@@ -57,7 +57,7 @@ h1 {
 
 .post {
     overflow: auto;
-    width: 50%;
+    width: 40%;
     box-sizing: border-box;
     padding: 0 1rem;
 }
