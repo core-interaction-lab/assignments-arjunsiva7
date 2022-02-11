@@ -16,3 +16,9 @@ font-family: inherit; font-style: inherit; font-size:
   font-family: col;
   src: url(col.ttf);
 }
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
