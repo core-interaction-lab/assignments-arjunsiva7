@@ -20,5 +20,5 @@ font-family: inherit; font-style: inherit; font-size:
 .menu{
     list-style-type: none;
     padding: 0;
-    display: inline;
+    display: flex;
 }
