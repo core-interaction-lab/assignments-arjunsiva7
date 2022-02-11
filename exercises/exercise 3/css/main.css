@@ -14,7 +14,7 @@ font-family: inherit; font-style: inherit; font-size:
 
 @font-face{
   font-family: col;
-  src: url(col.ttf);
+  src: url(regular.ttf);
 }
 
 img{
