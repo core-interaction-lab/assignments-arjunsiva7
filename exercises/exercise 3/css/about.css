@@ -1,53 +1,43 @@
-body{
-    background: url(https://assets.theoceancleanup.com/app/uploads/2021/08/Large-210823_Oceans_Systems_02_Drone_DL8-scaled.jpg) center center
-    no-repeat;
-    background-position: top center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-}
-
-@font-face{
-    font-family: col;
-    src: url(regular.ttf);
-  }
-
-html, body{
+html, body {
     min-height: 100%;
 }
 
-.content{
+body {
+    background: url(https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_134/f_auto,q_auto,w_1100/v1633552438/shape/mentalfloss/651042-gettyimages-1326020302.jpg) center center no-repeat;
+    background-position: top center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+}
+
+.content {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.call-to-action{
-    display: flex;
+.call-to-action {
+    text-align: center;
 }
 
-.call-to-action h1{
-    display: flex;
-    font-family: col;
+.call-to-action h1 {
+    font-family: 'Rowdies', cursive;
+    color: white;
     text-transform: uppercase;
     font-size: 50px;
 }
 
-.call-to-action a{
+.call-to-action a {
     background: white;
     padding: 1rem;
     text-decoration: none;
-    font-family: col;
+    font-family: Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
 @media (min-width: 813px) {
-        
-    .call-to-action h1{
-        display: flex;
-        font-family: col;
-        text-transform: uppercase;
+    .call-to-action h1 {
         font-size: 80px;
-    }    
+    }
 }
