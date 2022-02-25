@@ -24,7 +24,7 @@ font-family: inherit; font-style: inherit; font-size:
 
 /* Style the body */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: akz;
     margin: 0;
   }
   
@@ -36,7 +36,7 @@ body {
   
   /* Increase the font size of the heading */
   .header h1 {
-    font-size: 40px;
+    font-size: 40pt;
   }
   
   /* Style the top navigation bar */
@@ -91,12 +91,7 @@ body {
     padding: 20px;
   }
   
-  /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-  }
+
   
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 700px) {
@@ -298,10 +293,12 @@ body {
 
 
 
-  /*FOOTER AND OTHERS*/
+  /*footers*/
   .footer {
     height: 100px;
-    padding: 150px;
+    padding: 150px 150px 150px 150px;
+    font-size: 18pt;
     text-align: center;
     background: #ddd;
+    align-items: center;
   }
