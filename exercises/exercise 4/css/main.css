@@ -17,8 +17,82 @@ body{
     margin: 0;
     background: black;
     color: white;
+    box-sizing: border-box;
 }
 
 i{
     font-style: normal;
+}
+
+
+.container{
+    border: 1px soild #248eb2;
+    max-width: 335px;
+    width: 100px;
+    box-sizing: border-box;
+    margin: 25px auto;
+}
+
+.heading{
+    font-size: 29px;
+    margin: 18px auto;
+    text-transform: uppercase;
+}
+
+.sub-heading{
+    font-size: 16px;
+    margin: 0px;
+    text-transform: uppercase;
+
+}
+
+.content{
+    padding: 27px;
+}
+
+.signup-form{
+    margin-top: 45px;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    line-height: 45px;
+    background: #666666;
+    border: 1.5px solid #ffffff; 
+    margin-bottom: 15px;
+}
+
+.form-input::placeholder{
+    color: bfbfbf;
+}
+
+.form-submit-button{
+    background: #248eb2;
+    width: 218px;
+    height: 45px;
+    font-sixe: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.social-nac{
+
+}
+
+.social ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-nav li{
+
 }
