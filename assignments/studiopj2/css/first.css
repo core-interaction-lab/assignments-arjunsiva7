@@ -1,0 +1,330 @@
+@font-face {
+    font-family: ae-bold;
+    src: url(Aeonik-Bold.otf);
+}
+
+.title{
+
+    position: absolute;
+    width: 848px;
+    height: 559px;
+    left: 49px;
+    top: -300px;
+
+    font-family: ae-bold;
+    font-size: 280px;
+    line-height: 288px;    /* or 97% */
+    color: #FFFFFF;
+}
+
+/*The FIRST Note*/
+
+.one{
+
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 49px;
+    top: 618px;
+
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 49px;
+    top: 618px;
+
+    background: #FFFFFF;
+}
+
+.note-one{
+    position: absolute;
+    width: 173px;
+    height: 152px;
+    left: 63px;
+    top: 630px;
+
+    font-family: ae-bold;
+    font-size: 14px;
+    line-height: 16px;    /* or 114% */
+    background-color: white;
+    color: black;
+}
+
+.scene-one{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 57px;
+    top: 797px;
+
+    font-family: ae-bold;
+    font-size: 12px;
+    line-height: 16px;    /* or 133% */
+
+    color: #000000;
+}
+
+.line-one{
+    position: absolute;
+    width: 181.5px;
+    height: 0px;
+    left: 57px;
+    top: 788px;
+
+    border: 1px solid #000000;
+}
+
+/*The SECOND Note*/
+
+.two{
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 290px;
+    top: 618px;
+
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 290px;
+    top: 618px;
+
+    background: #FFFFFF;
+}
+
+.note-two{
+    position: absolute;
+    width: 182px;
+    height: 147px;
+    left: 300px;
+    top: 630px;
+
+    font-family: ae-bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    background-color: white;
+    color: #000000;
+}
+
+.scene-eight{
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    left: 300px;
+    top: 797px;
+    
+    font-family: ae-bold;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: #000000;
+}
+
+.line-two{
+    position: absolute;
+    width: 181.5px;
+    height: 0px;
+    left: 300px;
+    top: 788px;
+    
+    border: 1px solid #000000;
+}
+
+/*The THIRD Note*/
+
+.three{
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 531px;
+    top: 618px;
+
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 531px;
+    top: 618px;
+
+    background: #FFFFFF;
+}
+
+.note-three{
+    position: absolute;
+    width: 182px;
+    height: 154px;
+    left: 541px;
+    top: 630px;
+
+    font-family: ae-bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+
+    color: #000000;
+}
+
+.line-three{
+    position: absolute;
+    width: 181.5px;
+    height: 0px;
+    left: 541px;
+    top: 788px;
+    
+    border: 1px solid #000000;
+}
+
+.scene-twelve{
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    left: 541px;
+    top: 797px;
+
+    font-family: ae-bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+
+    color: #000000;
+}
+
+
+/*The FOURTH Note*/
+
+.four{
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 49px;
+    top: 868px;
+
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 49px;
+    top: 868px;
+
+    background: #FFFFFF;
+}
+
+.note-four{
+    position: absolute;
+    width: 177px;
+    height: 142px;
+    left: 59px;
+    top: 877px;
+
+    font-family: ae-bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+
+    color: #000000;
+}
+
+.line-four{
+    position: absolute;
+    width: 181.5px;
+    height: 0px;
+    left: 59px;
+    top: 1036px;
+
+    border: 1px solid #000000;
+}
+
+.scene-seventeen{
+    position: absolute;
+    width: 88px;
+    height: 17px;
+    left: 59px;
+    top: 1045px;
+
+    font-family: ae-bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+
+    color: #000000;
+}
+
+/*The FIVE Note*/
+
+.five{
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 290px;
+    top: 868px;
+
+    position: absolute;
+    width: 201px;
+    height: 204px;
+    left: 290px;
+    top: 868px;
+    background: #FFFFFF;
+}
+
+.note-five{
+    position: absolute;
+    width: 182px;
+    height: 141px;
+    left: 300px;
+    top: 878px;
+
+    font-family: ae-bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+
+    color: #000000;
+}
+
+.line-five{
+    position: absolute;
+    width: 181.5px;
+    height: 0px;
+    left: 300px;
+    top: 1036px;
+
+    border: 1px solid #000000;
+}
+
+.scene-twentyone{
+    position: absolute;
+    width: 59px;
+    height: 17px;
+    left: 300px;
+    top: 1045px;
+
+    font-family: ae-bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    color: #000000;
+}
+
+
+/*First show up*/
+
+.popup-one{
+    position: absolute;
+    width: 650px;
+    height: 958px;
+    left: 920px;
+    top: 20px;
+
+    font-family: ae-bold;
+    font-size: 28px;
+    line-height: 30px;
+    /* or 107% */
+
+    color: #FFFFFF;
+}
