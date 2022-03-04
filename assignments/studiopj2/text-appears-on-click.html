@@ -1,0 +1,24 @@
+<html>
+  <link rel="stylesheet" href="css/first.css" />
+  <head>
+    <title>Show and Hide</title>
+    <meta content="">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+      $(function() {
+	      $("#visible").click(function() {
+	        $('#invisible').toggleClass("show");
+	  });  
+	});
+    </script>
+    <style>
+      .hide{display:none;}
+      .show{display:block;}
+    </style>
+  </head>
+  <body>
+    <p class="note-one" id="visible">...... If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?</p>
+    <p id="invisible" class="hide">See me now!</p>
+  </body>
+</html>
+
