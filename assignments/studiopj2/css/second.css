@@ -764,4 +764,687 @@
     overflow-y: scroll;
 }
 
+@media (max-width: 400px) {
+    .title{
+        position: absolute;
+        width: 352px;
+        height: 178px;
+        left: 11px;
+        top: -80px;
+
+        font-family: ae-bold;
+        font-size: 85px;
+        line-height: 80px;
+        /* or 94% */
+        
+        color: #FFFFFF;   
+    }
+    .notes{
+        position: relative;
+        width: 364px;
+        height: 152px;
+        top: 175px;
+        overflow-x: scroll;
+    }
+
+    /*First Note*/
+    .one{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+    }
+    
+    .note-one{
+        position: absolute;
+        width: 118px;
+        height: 43px;
+        left: 10px;
+        top: 9px;
+        
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+           
+        color: #000000; /*#1DAB3C*/
+        
+    }
+    
+    .line-one{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 10px;
+        top: 116px;
+        
+        border: 0.7px solid #000000;
+    }
+    
+    .scene-one{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 10px;
+        top: 125px;
+        
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+        
+        
+        color: #000000;
+    }
+
+    /*Second Note*/
+
+    .two{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 148px;
+        top: 0px;
+
+        background: #FFFFFF;
+    }
+    
+    .note-two{
+        position: absolute;
+        width: 118px;
+        height: 97px;
+        left: 158px;
+        top: 9px;
+
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+
+        color: #000000;
+    }
+
+    .line-two{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 158px;
+        top: 116px;
+
+        border: 0.7px solid #000000;
+    }
+
+    .scene-two{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 158px;
+        top: 125px;
+        
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+        
+        color: #000000;
+    }
+
+    /*Third Note*/
+
+    .three{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 296px;
+        top: 0px;
+        
+        background: #FFFFFF;
+    }
+
+    .note-three{
+        position: absolute;
+        width: 107px;
+        height: 141px;
+        left: 306px;
+        top: 9px;
+
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+
+        color: #000000;
+    }
+    
+    .line-three{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 306px;
+        top: 116px;
+
+        border: 0.7px solid #000000;
+    }
+
+    .scene-three{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 306px;
+        top: 125px;
+
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+
+        color: #000000;
+    }
+
+    /*Four Note*/
+
+    .four{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 446px;
+        top: 0px;
+
+        background: #FFFFFF;
+    }
+
+    .note-four{
+        position: absolute;
+        width: 118px;
+        height: 67px;
+        left: 456px;
+        top: 11px;
+        
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+
+        color: #000000;
+    }
+
+    .line-four{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 456px;
+        top: 116px;
+
+        border: 0.7px solid #000000; 
+    }
+
+    .scene-four{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 456px;
+        top: 125px;
+
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+
+        color: #000000;
+    }
+
+    /*Note Five*/
+    .five{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 594px;
+        top: 0px;
+        
+        background: #FFFFFF;
+    }
+
+    .note-five{
+        position: absolute;
+        width: 118px;
+        height: 45px;
+        left: 604px;
+        top: 11px;
+        
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+
+        color: #000000;
+    }
+
+    .line-five{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 604px;
+        top: 116px;
+
+        border: 0.7px solid #000000; 
+    }
+
+    .scene-five{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 604px;
+        top: 125px;
+
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+
+        color: #000000;
+    }
+
+    /*Note Six*/
+    .six{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 746px;
+        top: 0px;
+        
+        background: #FFFFFF;
+    }
+
+    .note-six{
+        position: absolute;
+        width: 118px;
+        height: 95px;
+        left: 752px;
+        top: 11px;
+        
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+        
+        color: #000000;
+    }
+
+    .line-six{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 752px;
+        top: 116px;
+
+        border: 0.7px solid #000000; 
+    }
+
+    .scene-six{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 752px;
+        top: 125px;
+
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+
+        color: #000000;
+    }
+
+    /*Note Seven*/
+    .seven{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 896px;
+        top: 0px;
+        
+        background: #FFFFFF; 
+    }
+
+    .note-seven{
+        position: absolute;
+        width: 118px;
+        height: 95px;
+        left: 902px;
+        top: 11px;
+        
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+        
+        color: #000000;
+    }
+
+    .line-seven{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 902px;
+        top: 116px;
+
+        border: 0.7px solid #000000; 
+    }
+
+    .scene-seven{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 902px;
+        top: 125px;
+
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+
+        color: #000000;
+    }
+
+    /*Scene Eight*/
+    .eight{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 1046px;
+        top: 0px;
+        
+        background: #FFFFFF; 
+    }
+
+    .note-eight{
+        position: absolute;
+        width: 118px;
+        height: 95px;
+        left: 1052px;
+        top: 11px;
+        
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+        
+        color: #000000;
+    }
+
+    .line-eight{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 1052px;
+        top: 116px;
+
+        border: 0.7px solid #000000; 
+    }
+
+    .scene-eight{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 1052px;
+        top: 125px;
+
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+
+        color: #000000;
+    }
+
+    /*Note Nine*/
+
+    .nine{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 1196px;
+        top: 0px;
+        
+        background: #FFFFFF; 
+    }
+
+    .note-nine{
+        position: absolute;
+        width: 118px;
+        height: 95px;
+        left: 1202px;
+        top: 11px;
+        
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+        
+        color: #000000;
+    }
+
+    .line-nine{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 1202px;
+        top: 116px;
+
+        border: 0.7px solid #000000; 
+    }
+
+    .scene-nine{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 1202px;
+        top: 125px;
+
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+
+        color: #000000;
+    }
+
+    /*Note Ten*/
+    .ten{
+        position: absolute;
+        width: 138px;
+        height: 140px;
+        left: 1346px;
+        top: 0px;
+        
+        background: #FFFFFF; 
+    }
+
+    .note-ten{
+        position: absolute;
+        width: 118px;
+        height: 95px;
+        left: 1352px;
+        top: 11px;
+        
+        font-family: ae-bold;
+        font-size: 10px;
+        line-height: 10px;
+        /* or 100% */
+        
+        color: #000000;
+    }
+
+    .line-ten{
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 1352px;
+        top: 116px;
+
+        border: 0.7px solid #000000; 
+    }
+
+    .scene-ten{
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        left: 1352px;
+        top: 125px;
+
+        font-family: ae-bold;
+        font-size: 8px;
+        line-height: 16px;
+        /* or 200% */
+
+        color: #000000;
+    }
+
+
+    /*BODY TEXT*/
+
+    .hide{
+        position: absolute;
+        width: 352px;
+        height: 359px;
+        left: 11px;
+        top: 340px;
+
+        font-family: ae-bold;
+        font-size: 18px;
+        line-height: 20px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+    .hide-two{
+        position: absolute;
+        width: 352px;
+        height: 300px;
+        left: 11px;
+        top: 340px;
+
+        font-family: ae-bold;
+        font-size: 18px;
+        line-height: 20px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+    .hide-three{
+        position: absolute;
+        width: 352px;
+        height: 300px;
+        left: 11px;
+        top: 340px;
+
+        font-family: ae-bold;
+        font-size: 22px;
+        line-height: 24px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+    .hide-four{
+        position: absolute;
+        width: 352px;
+        height: 300px;
+        left: 11px;
+        top: 340px;
+
+        font-family: ae-bold;
+        font-size: 22px;
+        line-height: 24px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+    .hide-five{
+        position: absolute;
+        width: 352px;
+        height: 300px;
+        left: 11px;
+        top: 340px;
+
+        font-family: ae-bold;
+        font-size: 22px;
+        line-height: 24px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+    .hide-six{
+        position: absolute;
+        width: 352px;
+        height: 300px;
+        left: 11px;
+        top: 330px;
+
+        font-family: ae-bold;
+        font-size: 26px;
+        line-height: 28px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+    .hide-seven{
+        position: absolute;
+        width: 352px;
+        height: 300px;
+        left: 11px;
+        top: 330px;
+
+        font-family: ae-bold;
+        font-size: 26px;
+        line-height: 28px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+    .hide-eight{
+        position: absolute;
+        width: 352px;
+        height: 300px;
+        left: 11px;
+        top: 310px;
+
+        font-family: ae-bold;
+        font-size: 30px;
+        line-height: 32px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+    .hide-nine{
+        position: absolute;
+        width: 352px;
+        height: 300px;
+        left: 11px;
+        top: 310px;
+
+        font-family: ae-bold;
+        font-size: 30px;
+        line-height: 32px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+    .hide-ten{
+        position: absolute;
+        width: 352px;
+        height: 300px;
+        left: 11px;
+        top: 310px;
+
+        font-family: ae-bold;
+        font-size: 30px;
+        line-height: 32px;
+        /* or 111% */
+        color: #FFFFFF;
+    }
+
+}
+
 

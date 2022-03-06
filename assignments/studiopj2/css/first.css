@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: ae-bold;
     src: url(Aeonik-Bold.otf);
@@ -408,4 +410,396 @@
     color: #FFFFFF;
     /*color: #C3B534;*/
     background-color: #000000;
+}
+
+
+
+/*PHONE LAYOUT*/
+
+@media(max-width: 400px) {
+.title{
+    position: absolute;
+    width: 334px;
+    height: 183px;
+    left: 11px;
+    top: -130px;
+    
+    font-family: ae-bold;
+    font-size: 120px;
+    line-height: 110px;
+    /* or 90% */
+    
+    color: #FFFFFF;
+}    
+
+.notes{
+    background-color: aqua;
+    position: relative;
+    width: 364px;
+    height: 146px;
+    top: 210px;
+    overflow-x: scroll;
+}
+
+
+/*First Note*/
+
+.one{
+    position: absolute;
+    width: 138px;
+    height: 140px;
+    left: 0px;
+    top: 0px;
+    
+    position: absolute;
+    width: 138px;
+    height: 140px;
+    left: 0px;
+    top: 0px;
+
+
+    background: #FFFFFF;
+}
+
+.note-one{
+    position: absolute;
+    width: 118px;
+    height: 104px;
+    left: 10px;
+    top: 13px;
+
+    font-family: ae-bold;
+    font-size: 10px;
+    line-height: 10px;
+    /* or 100% */
+
+
+    color: #000000;
+}
+.line-one{
+    position: absolute;
+    width: 118px;
+    height: 0px;
+    left: 10px;
+    top: 116px;
+
+    border: 0.7px solid #000000;
+}
+
+.scene-one{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 10px;
+    top: 125px;
+
+    font-family: ae-bold;
+    font-size: 8px;
+    line-height: 16px;
+    /* or 200% */
+
+    color: #000000;
+}
+
+/*Second Note*/
+.two{
+    position: absolute;
+    width: 138px;
+    height: 140px;
+    left: 148px;
+    top: 0px;
+
+    width: 138px;
+    height: 140px;
+    left: 148px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.note-two{
+    position: absolute;
+    width: 118px;
+    height: 93px;
+    left: 158px;
+    top: 13px;
+
+    font-family: ae-bold;
+    font-size: 10px;
+    line-height: 10px;
+    /* or 100% */
+
+    color: #000000;
+}
+.line-two{
+    position: absolute;
+    width: 118px;
+    height: 0px;
+    left: 158px;
+    top: 116px;
+
+    border: 0.7px solid #000000;
+}
+
+.scene-eight{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 158px;
+    top: 125px;
+
+    font-family: ae-bold;
+    font-size: 8px;
+    line-height: 16px;
+    /* or 200% */
+
+    color: #000000;
+}
+
+/*Third Note*/
+
+.three{
+    position: absolute;
+    width: 138px;
+    height: 140px;
+    left: 296px;
+    top: 0px;
+
+    width: 138px;
+    height: 140px;
+    left: 296px;
+    top: 0px;
+
+
+    background: #FFFFFF;
+    }
+
+.note-three{
+    position: absolute;
+    width: 118px;
+    height: 151px;
+    left: 306px;
+    top: 10px;
+
+    font-family: ae-bold;
+    font-size: 10px;
+    line-height: 10px;
+    /* or 100% */
+
+    color: #000000;
+}
+
+.line-three{
+    position: absolute;
+    width: 118px;
+    height: 0px;
+    left: 306px;
+    top: 116px;
+
+    border: 0.7px solid #000000;
+}
+
+.scene-twelve{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 306px;
+    top: 125px;
+
+    font-family: ae-bold;
+    font-size: 8px;
+    line-height: 16px;
+    /* or 200% */
+
+    color: #000000;
+}
+
+/*Four Note*/
+.four{
+    position: absolute;
+    width: 138px;
+    height: 140px;
+    left: 444px;
+    top: 0px;
+
+    width: 138px;
+    height: 140px;
+    left: 444px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.note-four{
+    position: absolute;
+    width: 118px;
+    height: 142px;
+    left: 454px;
+    top: 13px;
+
+    font-family: ae-bold;
+    font-size: 10px;
+    line-height: 10px;
+    /* or 100% */
+
+    color: #000000;
+}
+
+.line-four{
+    position: absolute;
+    width: 118px;
+    height: 0px;
+    left: 454px;
+    top: 116px;
+    
+    border: 0.7px solid #000000;
+}
+
+.scene-seventeen{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 454px;
+    top: 125px;
+
+    font-family: ae-bold;
+    font-size: 8px;
+    line-height: 16px;
+    /* or 200% */
+
+    color: #000000;
+}
+
+/*Five Notes*/
+.five{
+    position: absolute;
+    width: 138px;
+    height: 140px;
+    left: 592px;
+    top: 5px;
+
+    width: 138px;
+    height: 140px;
+    left: 592px;
+    top: 0px;
+
+    background: #FFFFFF;
+
+}
+.note-five{
+    position: absolute;
+    width: 118px;
+    height: 141px;
+    left: 602px;
+    top: 10px;
+
+    font-family: ae-bold;
+    font-size: 10px;
+    line-height: 10px;
+    /* or 100% */
+
+    color: #000000;
+}
+.line-five{
+    position: absolute;
+    width: 118px;
+    height: 0px;
+    left: 602px;
+    top: 116px;
+    
+    border: 0.7px solid #000000;
+}
+
+.scene-twentyone{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 602px;
+    top: 126px;
+
+    font-family: ae-bold;
+    font-size: 8px;
+    line-height: 16px;
+    /* or 200% */
+
+    color: #000000;
+}
+
+/*Body Content ONE*/
+.hide{
+    position: absolute;
+    width: 352px;
+    height: 432px;
+    left: 11px;
+    top: 352px;
+    padding-top: 10px;
+    overflow-y: scroll;
+
+    font-family: ae-regular;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 112% */
+}
+.hide-two {
+    position: absolute;
+    width: 352px;
+    height: 432px;
+    left: 11px;
+    top: 352px;
+    padding-top: 10px;
+    overflow-y: scroll;
+
+    font-family: ae-regular;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 112% */
+}
+.hide-three {
+    position: absolute;
+    width: 352px;
+    height: 432px;
+    left: 11px;
+    top: 352px;
+    padding-top: 10px;
+    overflow-y: scroll;
+
+    font-family: ae-regular;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 112% */
+}
+
+.hide-four {
+    position: absolute;
+    width: 352px;
+    height: 432px;
+    left: 11px;
+    top: 352px;
+    padding-top: 10px;
+    overflow-y: scroll;
+
+    font-family: ae-regular;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 112% */
+}
+
+
+.hide-five {
+    position: absolute;
+    width: 352px;
+    height: 432px;
+    left: 11px;
+    top: 352px;
+    padding-top: 10px;
+    overflow-y: scroll;
+
+    font-family: ae-regular;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 112% */
+}
+
+
+
 }

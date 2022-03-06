@@ -110,4 +110,23 @@
 
   .body{
     padding-top: 20px;
+
   }
+
+@media (max-width: 400px){
+  .bold-text{
+    position: absolute;
+    width: 339px;
+    height: 785px;
+    padding-left: -100px;
+    top: 0px;
+    
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    
+    color: #000000;
+  }
+}
