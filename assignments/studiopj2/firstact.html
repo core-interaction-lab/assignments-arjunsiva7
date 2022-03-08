@@ -18,6 +18,9 @@
     .hide{display: none;}
     .show{display: block;}
 
+    .sub-hide{display: none;}
+    .show{display: block;}
+
     .hide-two{display: none;}
     .show-two{display: block;}
     
@@ -30,13 +33,58 @@
     .hide-five{display: none;}
     .show-five{display: block;}
     
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
 
+    a.spacing{
+        word-spacing: 50px;
+    }
+
+    .title{
+        cursor: cell;
+        size: 30px;
+    }
+    
 
 </style>
  
 </head>
+
+
 <script>
-    $(function() {
+    //    function doSomeThing()
+    // {
+    //     var progress = "";
+
+    //     progress += text1;
+    //     document.getElementById("displayText").innerHTML = progress;
+
+    //     progress += 'Curating isn’t undemocratic or “elitist,” a term that is now used so often that it’s become meaningless. It’s an act of generosity—you’re sharing what you love and what has inspired you. (The best streaming platforms, such as the Criterion Channel and MUBI and traditional outlets such as TCM, are based on curating—they’re actually curated.) Algorithms, by definition, are based on calculations that treat the viewer as a consumer and nothing else.';
+        
+    //     document.getElementById("displayText").innerHTML = progress;
+        
+    //     progress += text3;
+    //     document.getElementById("displayText").innerHTML = progress;
+
+    //     progress += text4;
+    //     document.getElementById("displayText").innerHTML = progress;
+
+    //     progress += text5;
+    //     document.getElementById("displayText").innerHTML = progress;
+    // }
+
+// //document.getElementsByClassName('note-one').onclick = function() {
+//     //var elem = document.querySelector('#one');
+//     //var elem = document.getElementById('one');
+
+//         document.getElementsByClassName('note-one')[0].style.color = 'yellow';
+//     //document.getElementsByClassName('note-one')[0].style.display = "none";
+
+// //};
+
+  $(function() {
         $("#visible").click(function() {
           $('#invisible').toggleClass("show");
     });  
@@ -69,14 +117,23 @@
   </script> 
 
 <body>
-    <p class="title">FIRST ACT</p>
-       <div class="notes"> 
-        <p class="one">
+    <a class="home" href="index.html">Il Maestro</a>
+
+    <p class="title">
+        <a class="sub-title" href="firstact.html">I</a>
+        <a href="secondact.html">II</a>
+        <a href="thirdact.html">III</a>
+        <a class="spacing">ACT</a>
+    </p>
+
+    <div class="notes"> 
+
+        <p class="one" id="one">
                 <p class="note-one" id="visible"> ...... If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?</p>
                 <p class="line-one"></p>
                 <p class="scene-one"> Scene 1</p>
-            </p>
-        </a>
+        </p>
+   
 
         <p class="two">
             <p class="note-two" id="visible-two"> ...... Algorithms, by definition, are based on calculations that treat the viewer as a consumer and nothing else.</p>
@@ -108,7 +165,8 @@
 
         <p id="invisible" class="hide">Flash forward to the present day, as the art of cinema is being systematically devalued, sidelined, demeaned, and reduced to its lowest common denominator, “content.”<br><br>
 
-            As recently as fifteen years ago, the term “content” was heard only when people were discussing the cinema on a serious level, and it was contrasted with and measured against “form.” Then, gradually, it was used more and more by the people who took over media companies, most of whom knew nothing about the history of the art form, or even cared enough to think that they should. “Content” became a business term for all moving images: a David Lean movie, a cat video, a Super Bowl commercial, a superhero sequel, a series episode. It was linked, of course, not to the theatrical experience but to home viewing, on the streaming platforms that have come to overtake the moviegoing experience, just as Amazon overtook physical stores. On the one hand, this has been good for filmmakers, myself included. On the other hand, it has created a situation in which everything is presented to the viewer on a level playing field, which sounds democratic but isn’t.If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?  
+            As recently as fifteen years ago, the term “content” was heard only when people were discussing the cinema on a serious level, and it was contrasted with and measured against “form.” Then, gradually, it was used more and more by the people who took over media companies, most of whom knew nothing about the history of the art form, or even cared enough to think that they should. “Content” became a business term for all moving images: a David Lean movie, a cat video, a Super Bowl commercial, a superhero sequel, a series episode. It was linked, of course, not to the theatrical experience but to home viewing, on the streaming platforms that have come to overtake the moviegoing experience, just as Amazon overtook physical stores. On the one hand, this has been good for filmmakers, myself included. On the other hand, it has created a situation in which everything is presented to the viewer on a level playing field, which sounds democratic but isn’t.<p class="sub-hide">If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?</p>
+
             <!--<p style="font-size:28px; color: #c3b534; font-family: ae-regular; position: absolute; width: 650px; height: 958px; left: 920px; top: 890px; " id="invisible" class="hide">If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?</p>-->
         </p>
 

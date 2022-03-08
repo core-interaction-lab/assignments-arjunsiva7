@@ -8,6 +8,26 @@
     src: url(Aeonik-Regular.otf);
 }
 
+.home{
+    position: absolute;
+    width: 337px;
+    height: 40px;
+    left: 1426px;
+    top: 35px;
+
+    font-family: ae-bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.home:hover{
+    font-size: 30px;
+    color: #28388C;
+}
+
 .title{
     position: absolute;
     width: 848px;
@@ -17,10 +37,44 @@
 
     font-family: ae-bold;
     font-size: 280px;
-    line-height: 288px;  /* or 97% */
+    line-height: 220px;  /* or 97% */
     color: #FFFFFF;
+    word-spacing: -10px;
 }
 
+.sub-title{
+    font-family: ae-bold;
+    font-size: 280px;
+    line-height: 288px;  /* or 97% */
+    color: #28388C;
+}
+
+.spacing{
+    padding-top: -100px;
+    word-spacing: 50px;
+}
+
+/*HOVER*/
+
+.note-one:hover{
+    color: #28388C;
+}
+
+.note-two:hover{
+    color: #28388C;
+}
+
+.note-three:hover{
+    color: #28388C;
+}
+
+.note-four:hover{
+    color: #28388C;
+}
+
+.note-five:hover{
+    color: #28388C;
+}
 
 /*The FIRST Note*/
 
@@ -29,13 +83,8 @@
     width: 201px;
     height: 204px;
     left: 49px;
-    top: 618px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 49px;
-    top: 618px;
+    top: 568px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -45,7 +94,8 @@
     width: 173px;
     height: 152px;
     left: 63px;
-    top: 630px;
+    top: 580px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -59,7 +109,8 @@
     width: 182px;
     height: 147px;
     left: 57px;
-    top: 797px;
+    top: 747px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -73,7 +124,8 @@
     width: 181.5px;
     height: 0px;
     left: 57px;
-    top: 788px;
+    top: 738px;
+    cursor: cell;
 
     border: 1px solid #000000;
 }
@@ -85,13 +137,8 @@
     width: 201px;
     height: 204px;
     left: 290px;
-    top: 618px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 290px;
-    top: 618px;
+    top: 568px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -101,7 +148,8 @@
     width: 182px;
     height: 147px;
     left: 300px;
-    top: 630px;
+    top: 580px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -117,7 +165,8 @@
     width: 76px;
     height: 17px;
     left: 300px;
-    top: 797px;
+    top: 747px;
+    cursor: cell;
     
     font-family: ae-bold;
     font-size: 12px;
@@ -131,7 +180,8 @@
     width: 181.5px;
     height: 0px;
     left: 300px;
-    top: 788px;
+    top: 738px;
+    cursor: cell;
     
     border: 1px solid #000000;
 }
@@ -143,13 +193,8 @@
     width: 201px;
     height: 204px;
     left: 531px;
-    top: 618px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 531px;
-    top: 618px;
+    top: 568px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -159,7 +204,8 @@
     width: 182px;
     height: 154px;
     left: 541px;
-    top: 630px;
+    top: 580px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -175,7 +221,8 @@
     width: 181.5px;
     height: 0px;
     left: 541px;
-    top: 788px;
+    top: 738px;
+    cursor: cell;
     
     border: 1px solid #000000;
 }
@@ -185,7 +232,8 @@
     width: 76px;
     height: 17px;
     left: 541px;
-    top: 797px;
+    top: 747px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -204,13 +252,8 @@
     width: 201px;
     height: 204px;
     left: 49px;
-    top: 868px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 49px;
-    top: 868px;
+    top: 818px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -220,7 +263,8 @@
     width: 177px;
     height: 142px;
     left: 59px;
-    top: 877px;
+    top: 827px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -236,7 +280,8 @@
     width: 181.5px;
     height: 0px;
     left: 59px;
-    top: 1036px;
+    top: 986px;
+    cursor: cell;
 
     border: 1px solid #000000;
 }
@@ -246,7 +291,8 @@
     width: 88px;
     height: 17px;
     left: 59px;
-    top: 1045px;
+    top: 995px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -264,13 +310,9 @@
     width: 201px;
     height: 204px;
     left: 290px;
-    top: 868px;
+    top: 818px;
+    cursor: cell;
 
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 290px;
-    top: 868px;
     background: #FFFFFF;
 }
 
@@ -279,7 +321,8 @@
     width: 182px;
     height: 141px;
     left: 300px;
-    top: 878px;
+    top: 828px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -295,8 +338,9 @@
     width: 181.5px;
     height: 0px;
     left: 300px;
-    top: 1036px;
+    top: 986px;
     overflow-x: scroll;
+    cursor: cell;
 
     border: 1px solid #000000;
 }
@@ -306,7 +350,8 @@
     width: 59px;
     height: 17px;
     left: 300px;
-    top: 1045px;
+    top: 995px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -317,13 +362,13 @@
 }
 
 
-
+/*Show Ups*/
 .hide{
     position: absolute;
-    width: 757px;
-    height: 1029px;
-    left: 927px;
-    top: 5px;
+    width: 900px;
+    height: 950px;
+    left: 827px;
+    top: 0px;
 
     font-family: ae-regular;
     font-size: 64px;
@@ -331,15 +376,16 @@
     /* or 113% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-two{
     position: absolute;
-    width: 757px;
-    height: 1029px;
-    left: 927px;
-    top: 5px;
+    width: 900px;
+    height: 950px;
+    left: 827px;
+    top: 0px;
 
     font-family: ae-regular;
     font-size: 64px;
@@ -347,15 +393,16 @@
     /* or 113% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-three{
     position: absolute;
-    width: 757px;
-    height: 1029px;
-    left: 927px;
-    top: 5px;
+    width: 900px;
+    height: 950px;
+    left: 827px;
+    top: 0px;
 
     font-family: ae-regular;
     font-size: 64px;
@@ -363,15 +410,16 @@
     /* or 113% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-four{
     position: absolute;
-    width: 757px;
-    height: 1029px;
-    left: 927px;
-    top: 5px;
+    width: 900px;
+    height: 950px;
+    left: 827px;
+    top: 0px;
 
     font-family: ae-regular;
     font-size: 64px;
@@ -379,15 +427,16 @@
     /* or 113% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-five{
     position: absolute;
-    width: 757px;
-    height: 1029px;
-    left: 927px;
-    top: 5px;
+    width: 900px;
+    height: 950px;
+    left: 827px;
+    top: 0px;
 
     font-family: ae-regular;
     font-size: 64px;
@@ -395,8 +444,29 @@
     /* or 113% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
+
+/*
+.hide-five{
+    position: absolute;
+    width: 1728px;
+    height: 1117px;
+    left: 58px;
+    top: 38px;
+    padding-left: 50px;
+    overflow-y: scroll;
+
+    font-family: ae-bold;
+    font-size: 144px;
+    line-height: 146px;
+    color: #FFFFFF;
+    background-color: #000000;
+    z-index: 5;
+
+}
+*/
 
 
 
@@ -417,13 +487,51 @@
         
         color: #FFFFFF;
     }    
+
+    .home{
+        position: absolute;
+        width: 337px;
+        height: 40px;
+        left: 195px;
+        top: 160px;
+        
+        font-family: ae-bold;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: right;
+        
+        color: #FFFFFF;
+        
+        transform: rotate(-90deg);
+    }
     
+    .sub-title{
+        font-family: ae-bold;
+        font-size: 120px;
+        line-height: 110px;
+        /* or 90% */
+        color: #28388C;
+    }
+
+    .spacing{
+        padding-top: -100px;
+        word-spacing: 50px;
+    }
+
     .notes{
-        background-color: aqua;
+        /* background-color: aqua; */
         position: relative;
         width: 364px;
         height: 146px;
-
+        top: 210px;
+        overflow-x: scroll;
+    }
+    
+    .notes{
+        /* background-color: red; */
+        position: relative;
+        width: 364px;
+        height: 146px;
         top: 210px;
         overflow-x: scroll;
     }
@@ -716,9 +824,9 @@
     .hide{
         position: absolute;
         width: 340px;
-        height: 444px;
+        height: 330px;
         left: 7px;
-        top: 340px;
+        top: 330px;
         
         padding-top: 10px;
         padding-bottom: 30px;
@@ -733,9 +841,9 @@
     .hide-two {
         position: absolute;
         width: 340px;
-        height: 444px;
+        height: 330px;
         left: 7px;
-        top: 340px;
+        top: 330px;
         
         padding-top: 10px;
         padding-bottom: 30px;
@@ -750,9 +858,9 @@
     .hide-three {
         position: absolute;
         width: 340px;
-        height: 444px;
+        height: 330px;
         left: 7px;
-        top: 340px;
+        top: 330px;
         
         padding-top: 10px;
         padding-bottom: 30px;
@@ -768,9 +876,9 @@
     .hide-four {
         position: absolute;
         width: 340px;
-        height: 444px;
+        height: 330px;
         left: 7px;
-        top: 340px;
+        top: 330px;
         
         padding-top: 10px;
         padding-bottom: 30px;
@@ -783,13 +891,13 @@
         /* or 112% */
     }
     
-    
+    /*
     .hide-five {
         position: absolute;
         width: 340px;
-        height: 444px;
+        height: 330px;
         left: 7px;
-        top: 340px;
+        top: 330px;
         
         padding-top: 10px;
         padding-bottom: 30px;
@@ -799,6 +907,26 @@
         font-family: ae-bold;
         font-size: 40px;
         line-height: 38px;
-        /* or 112% */
+       
     }    
+*/ /* or 112% */
+
+    .hide-five{
+        position: absolute;
+        font-family: ae-bold;
+        font-size: 40px;
+        line-height: 40px;
+        color: #FFFFFF;
+        background-color: #000000;
+
+        position: absolute;
+        width: 380px;
+        height: 776px;
+        left: 7px;
+        padding-left: 15px;
+        top: 13px;
+
+        z-index: 5;
+    }
+    
 }

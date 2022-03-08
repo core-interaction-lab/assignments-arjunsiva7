@@ -8,6 +8,26 @@
     src: url(Aeonik-Regular.otf);
 }
 
+.home{
+    position: absolute;
+    width: 337px;
+    height: 40px;
+    left: 1426px;
+    top: 35px;
+
+    font-family: ae-bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.home:hover{
+    font-size: 30px;
+    color: #1DAB3C;
+}
+
 .title{
 
     position: absolute;
@@ -18,9 +38,23 @@
 
     font-family: ae-bold;
     font-size: 280px;
-    line-height: 288px;  /* or 97% */
+    line-height: 220px;  /* or 97% */
     color: #FFFFFF;
+    word-spacing: -10px;
 }
+
+.sub-title{
+    font-family: ae-bold;
+    font-size: 280px;
+    line-height: 288px;  /* or 97% */
+    color: #1DAB3C;
+}
+
+.spacing{
+    padding-top: -100px;
+    word-spacing: 50px;
+}
+
 
 /*The FIRST Note*/
 
@@ -29,13 +63,8 @@
     width: 201px;
     height: 204px;
     left: 35px;
-    top: 631px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 35px;
-    top: 631px;
+    top: 571px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -45,7 +74,8 @@
     width: 165px;
     height: 141px;
     left: 53px;
-    top: 641px;
+    top: 581px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -61,7 +91,8 @@
     width: 181.5px;
     height: 0px;
     left: 45px;
-    top: 805px;
+    top: 745px;
+    cursor: cell;
     
     border: 1px solid #000000;
 }
@@ -71,7 +102,8 @@
     width: 108px;
     height: 17px;
     left: 45px;
-    top: 814px;
+    top: 754px;
+    cursor: cell;
     
     font-family: ae-bold;
     font-size: 12px;
@@ -89,13 +121,8 @@
     width: 201px;
     height: 204px;
     left: 257px;
-    top: 631px;
-    
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 257px;
-    top: 631px;
+    top: 571px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -105,7 +132,8 @@
     width: 165px;
     height: 141px;
     left: 275px;
-    top: 641px;
+    top: 581px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -120,7 +148,8 @@
     width: 181.5px;
     height: 0px;
     left: 267px;
-    top: 805px;
+    top: 745px;
+    cursor: cell;
 
     border: 1px solid #000000;
 }
@@ -130,7 +159,8 @@
     width: 125px;
     height: 17px;
     left: 267px;
-    top: 814px;
+    top: 754px;
+    cursor: cell;
     
     font-family: ae-bold;
     font-size: 12px;
@@ -147,13 +177,8 @@
     width: 201px;
     height: 204px;
     left: 479px;
-    top: 631px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 479px;
-    top: 631px;
+    top: 571px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -163,7 +188,8 @@
     width: 165px;
     height: 141px;
     left: 497px;
-    top: 641px;
+    top: 581px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -178,7 +204,8 @@
     width: 181.5px;
     height: 0px;
     left: 489px;
-    top: 805px;
+    top: 745px;
+    cursor: cell;
 
     border: 1px solid #000000;
 }
@@ -188,7 +215,8 @@
     width: 94px;
     height: 17px;
     left: 489px;
-    top: 814px;
+    top: 754px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -205,13 +233,8 @@
     width: 201px;
     height: 204px;
     left: 701px;
-    top: 631px;
-    
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 701px;
-    top: 631px;
+    top: 571px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -221,7 +244,8 @@
     width: 165px;
     height: 141px;
     left: 719px;
-    top: 641px;
+    top: 581px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -236,7 +260,8 @@
     width: 181.5px;
     height: 0px;
     left: 711px;
-    top: 805px;
+    top: 745px;
+    cursor: cell;
 
     border: 1px solid #000000;
 }
@@ -246,7 +271,8 @@
     width: 123px;
     height: 17px;
     left: 711px;
-    top: 814px;
+    top: 754px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -263,13 +289,8 @@
     width: 201px;
     height: 204px;
     left: 923px;
-    top: 631px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 923px;
-    top: 631px;
+    top: 571px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -279,7 +300,8 @@
     width: 165px;
     height: 141px;
     left: 941px;
-    top: 641px;
+    top: 581px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -294,7 +316,8 @@
     width: 181.5px;
     height: 0px;
     left: 933px;
-    top: 806px;
+    top: 745px;
+    cursor: cell;
     
     border: 1px solid #000000;
 }
@@ -304,7 +327,8 @@
     width: 101px;
     height: 17px;
     left: 933px;
-    top: 815px;
+    top: 755px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -321,13 +345,8 @@
     width: 201px;
     height: 204px;
     left: 35px;
-    top: 854px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 35px;
-    top: 854px;
+    top: 794px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -337,7 +356,8 @@
     width: 165px;
     height: 141px;
     left: 53px;
-    top: 870px;
+    top: 810px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -352,7 +372,8 @@
     width: 181.5px;
     height: 0px;
     left: 45px;
-    top: 1027px;
+    top: 967px;
+    cursor: cell;
 
     border: 1px solid #000000;
 }
@@ -362,13 +383,13 @@
     width: 116px;
     height: 17px;
     left: 45px;
-    top: 1036px;
+    top: 976px;
+    cursor: cell;
     
     font-family: ae-bold;
     font-size: 12px;
     line-height: 16px;
     /* or 133% */
-    
     
     color: #000000;
 }
@@ -380,13 +401,8 @@
     width: 201px;
     height: 204px;
     left: 257px;
-    top: 854px;
-    
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 257px;
-    top: 854px;
+    top: 794px;
+    cursor: cell;
 
     background: #FFFFFF;}
 
@@ -395,7 +411,8 @@
     width: 165px;
     height: 141px;
     left: 276px;
-    top: 870px;
+    top: 810px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 14px;
@@ -411,7 +428,8 @@
     width: 181.5px;
     height: 0px;
     left: 267px;
-    top: 1027px;
+    top: 967px;
+    cursor: cell;
     
     border: 1px solid #000000;
 }
@@ -421,7 +439,8 @@
     width: 102px;
     height: 17px;
     left: 267px;
-    top: 1036px;
+    top: 976px;
+    cursor: cell;
     
     font-family: ae-bold;
     font-size: 12px;
@@ -438,13 +457,8 @@
     width: 201px;
     height: 204px;
     left: 479px;
-    top: 854px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 479px;
-    top: 854px;
+    top: 794px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -454,7 +468,8 @@
     width: 165px;
     height: 141px;
     left: 497px;
-    top: 870px;
+    top: 810px;
+    cursor: cell;
     
     font-family: ae-bold;
     font-size: 14px;
@@ -469,7 +484,8 @@
     width: 181.5px;
     height: 0px;
     left: 489px;
-    top: 1027px;
+    top: 967px;
+    cursor: cell;
 
     border: 1px solid #000000;
 }
@@ -479,7 +495,8 @@
     width: 94px;
     height: 17px;
     left: 489px;
-    top: 1036px;
+    top: 976px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -496,13 +513,8 @@
     width: 201px;
     height: 204px;
     left: 701px;
-    top: 854px;
-
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 701px;
-    top: 854px;
+    top: 794px;
+    cursor: cell;
 
     background: #FFFFFF;
 }
@@ -512,7 +524,8 @@
     width: 165px;
     height: 141px;
     left: 718px;
-    top: 870px;
+    top: 810px;
+    cursor: cell;
     
     font-family: ae-bold;
     font-size: 14px;
@@ -527,7 +540,8 @@
     width: 181.5px;
     height: 0px;
     left: 711px;
-    top: 1027px;
+    top: 967px;
+    cursor: cell;
     
     border: 1px solid #000000;
 }
@@ -537,7 +551,8 @@
     width: 109px;
     height: 17px;
     left: 711px;
-    top: 1036px;
+    top: 976px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -554,13 +569,8 @@
     width: 201px;
     height: 204px;
     left: 923px;
-    top: 854px;
-    
-    position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 923px;
-    top: 854px;    
+    top: 794px;
+    cursor: cell;
     
     background: #FFFFFF;
 }
@@ -569,7 +579,8 @@
     width: 165px;
     height: 141px;
     left: 938px;
-    top: 870px;
+    top: 810px;
+    cursor: cell;
     
     font-family: ae-bold;
     font-size: 14px;
@@ -584,7 +595,8 @@
     width: 181.5px;
     height: 0px;
     left: 930px;
-    top: 1028px;
+    top: 967px;
+    cursor: cell;
     
     border: 1px solid #000000;
 }
@@ -594,7 +606,8 @@
     width: 130px;
     height: 17px;
     left: 930px;
-    top: 1037px;
+    top: 976px;
+    cursor: cell;
 
     font-family: ae-bold;
     font-size: 12px;
@@ -604,12 +617,57 @@
     color: #000000;
 }
 
+
+
+/*Hover*/
+.note-one:hover{
+    color: #1DAB3C;
+}
+
+.note-two:hover{
+    color: #1DAB3C;
+}
+
+.note-three:hover{
+    color: #1DAB3C;
+}
+
+.note-four:hover{
+    color: #1DAB3C;
+}
+
+.note-five:hover{
+    color: #1DAB3C;
+}
+.note-six:hover{
+    color: #1DAB3C;
+}
+
+.note-seven:hover{
+    color: #1DAB3C;
+}
+
+.note-eight:hover{
+    color: #1DAB3C;
+}
+
+.note-nine:hover{
+    color: #1DAB3C;
+}
+
+.note-ten:hover{
+    color: #1DAB3C;
+}
+
+
+
+/*SHOW UPS*/
 .hide{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 30px;
@@ -617,14 +675,15 @@
     /* or 113% */
 
     color: #FFFFFF;
+    background-color: #000000;
 }
 
 .hide-two{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 30px;
@@ -632,15 +691,16 @@
     /* or 113% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-three{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 34px;
@@ -648,16 +708,17 @@
     /* or 112% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 
 .hide-four{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 38px;
@@ -665,15 +726,16 @@
     /* or 112% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-five{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 38px;
@@ -681,15 +743,16 @@
     /* or 112% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-six{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 38px;
@@ -697,15 +760,16 @@
     /* or 112% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-seven{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 42px;
@@ -713,15 +777,16 @@
     /* or 112% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-eight{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 48px;
@@ -729,15 +794,16 @@
     /* or 112% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-nine{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 48px;
@@ -745,15 +811,16 @@
     /* or 112% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 .hide-ten{
     position: absolute;
-    width: 509px;
-    height: 1000px;
+    width: 550px;
+    height: 950px;
     left: 1178px;
-    top: 15px;
+    top: 40px;
 
     font-family: ae-regular;
     font-size: 48px;
@@ -761,29 +828,70 @@
     /* or 112% */
 
     color: #FFFFFF;
+    background-color: #000000;
     overflow-y: scroll;
 }
 
 @media (max-width: 400px) {
     .title{
         position: absolute;
-        width: 352px;
-        height: 178px;
+        width: 334px;
+        height: 183px;
         left: 11px;
-        top: -80px;
-
-        font-family: ae-bold;
-        font-size: 85px;
-        line-height: 80px;
-        /* or 94% */
+        top: -130px;
         
-        color: #FFFFFF;   
+        font-family: ae-bold;
+        font-size: 120px;
+        line-height: 110px;
+        /* or 90% */
+        
+        color: #FFFFFF;
+    }   
+
+    .home{
+        position: absolute;
+        width: 337px;
+        height: 40px;
+        left: 195px;
+        top: 160px;
+        
+        font-family: ae-bold;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: right;
+        
+        color: #FFFFFF;
+        
+        transform: rotate(-90deg);
     }
+    
+    .sub-title{
+        font-family: ae-bold;
+        font-size: 120px;
+        line-height: 110px;
+        /* or 90% */
+        color: #1DAB3C;
+    }
+
+    .spacing{
+        padding-top: -100px;
+        word-spacing: 50px;
+    }
+
+    .notes{
+        /* background-color: aqua; */
+        position: relative;
+        width: 364px;
+        height: 146px;
+        top: 210px;
+        overflow-x: scroll;
+    }
+
     .notes{
         position: relative;
         width: 364px;
         height: 152px;
-        top: 175px;
+        top: 210px;
         overflow-x: scroll;
     }
 
@@ -1310,7 +1418,7 @@
         width: 352px;
         height: 359px;
         left: 11px;
-        top: 340px;
+        top: 370px;
 
         font-family: ae-bold;
         font-size: 18px;
@@ -1324,7 +1432,7 @@
         width: 352px;
         height: 300px;
         left: 11px;
-        top: 340px;
+        top: 370px;
 
         font-family: ae-bold;
         font-size: 18px;
@@ -1338,7 +1446,7 @@
         width: 352px;
         height: 300px;
         left: 11px;
-        top: 340px;
+        top: 370px;
 
         font-family: ae-bold;
         font-size: 22px;
@@ -1352,7 +1460,7 @@
         width: 352px;
         height: 300px;
         left: 11px;
-        top: 340px;
+        top: 370px;
 
         font-family: ae-bold;
         font-size: 22px;
@@ -1366,7 +1474,7 @@
         width: 352px;
         height: 300px;
         left: 11px;
-        top: 340px;
+        top: 370px;
 
         font-family: ae-bold;
         font-size: 22px;
@@ -1380,7 +1488,7 @@
         width: 352px;
         height: 300px;
         left: 11px;
-        top: 330px;
+        top: 360px;
 
         font-family: ae-bold;
         font-size: 26px;
@@ -1394,7 +1502,7 @@
         width: 352px;
         height: 300px;
         left: 11px;
-        top: 330px;
+        top: 360px;
 
         font-family: ae-bold;
         font-size: 26px;
@@ -1408,7 +1516,7 @@
         width: 352px;
         height: 300px;
         left: 11px;
-        top: 310px;
+        top: 350px;
 
         font-family: ae-bold;
         font-size: 30px;
@@ -1422,7 +1530,7 @@
         width: 352px;
         height: 300px;
         left: 11px;
-        top: 310px;
+        top: 350px;
 
         font-family: ae-bold;
         font-size: 30px;
@@ -1436,7 +1544,7 @@
         width: 352px;
         height: 300px;
         left: 11px;
-        top: 310px;
+        top: 350px;
 
         font-family: ae-bold;
         font-size: 30px;

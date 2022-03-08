@@ -3,8 +3,18 @@
   <head>
     <title>Show and Hide</title>
     <meta content="">
+    <link rel="stylesheet" href="css/first.css" />
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script>
+    <style>
+      body{
+        background-color: black;
+        color: white;
+        font-family: ae-regular;
+      }
+      p{
+        color: white;      }
+    </style>
+    <!-- <script>
       $(function() {
 	      $("#visible").click(function() {
 	        $('#invisible').toggleClass("show");
@@ -14,11 +24,156 @@
     <style>
       .hide{display:none;}
       .show{display:block;}
-    </style>
+    </style> -->
+<!-- <script>      
+function doSomeThing()
+  {
+      //do something
+      document.getElementById("displayText").innerHTML = text1;
+      //do something
+      document.getElementById("displayText").innerHTML += (" "+text2);
+      //do something
+      document.getElementById("displayText").innerHTML += (" "+text3);
+  }
+
+
+  function doSomeThing()
+  {
+      //do something
+      document.getElementById("displayText1").innerHTML = "Curating isn’t undemocratic or “elitist,” a term that is now used so often that it’s become meaningless. It’s an act of generosity—you’re sharing what you love and what has inspired you. (The best streaming platforms, such as the Criterion Channel and MUBI and traditional outlets such as TCM, are based on curating—they’re actually curated.) Algorithms, by definition, are based on calculations that treat the viewer as a consumer and nothing else";
+      //do something
+      document.getElementById("displayText2").innerHTML = text2;
+      //do something
+      document.getElementById("displayText3").innerHTML = text3;
+  }</script> -->
+  
+  <script>
+    function Msg1(){
+      document.getElementById('myText').innerHTML = 'Flash forward to the present day, as the art of cinema is being systematically devalued, sidelined, demeaned, and reduced to its lowest common denominator, content. <br><br> As recently as fifteen years ago, the term “content” was heard only when people were discussing the cinema on a serious level, and it was contrasted with and measured against “form.” Then, gradually, it was used more and more by the people who took over media companies, most of whom knew nothing about the history of the art form, or even cared enough to think that they should. “Content” became a business term for all moving images: a David Lean movie, a cat video, a Super Bowl commercial, a superhero sequel, a series episode. It was linked, of course, not to the theatrical experience but to home viewing, on the streaming platforms that have come to overtake the moviegoing experience, just as Amazon overtook physical stores. On the one hand, this has been good for filmmakers, myself included. On the other hand, it has created a situation in which everything is presented to the viewer on a level playing field, which sounds democratic but isn’t.If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?';
+    }
+    function Msg2(){
+      document.getElementById('myText-two').innerHTML = 'Curating isn’t undemocratic or “elitist,” a term that is now used so often that it’s become meaningless. It’s an act of generosity—you’re sharing what you love and what has inspired you. (The best streaming platforms, such as the Criterion Channel and MUBI and traditional outlets such as TCM, are based on curating—they’re actually curated.) Algorithms, by definition, are based on calculations that treat the viewer as a consumer and nothing else. ';
+    }
+
+    function Msg3(){
+      document.getElementById('myText').innerHTML = 'The choices made by distributors such as Amos Vogel at Grove Press back in the Sixties were not just acts of generosity but, quite often, of bravery. Dan Talbot, who was an exhibitor and a programmer, started New Yorker Films in order to distribute a film he loved, Bertolucci’s Before the Revolution—not exactly a safe bet. The pictures that came to these shores thanks to the efforts of these and other distributors and curators and exhibitors made for an extraordinary moment. The circumstances of that moment are gone forever, from the primacy of the theatrical experience to the shared excitement over the possibilities of cinema. That’s why I go back to those years so often. I feel lucky to have been young and alive and open to all of it as it was happening. The cinema has always been much more than content, and it always will be, and the years when those films were coming out from all over the world, talking to each other and redefining the art form on a weekly basis, are the proof.';
+    }
+
+    function Msg4(){
+      document.getElementById('myText').innerHTML = 'In essence, these artists were constantly grappling with the question “What is cinema?” and then throwing it back for the next film to answer. No one was operating in a vacuum, and everybody seemed to be responding to and feeding off everybody else. Godard and Bertolucci and Antonioni and Bergman and Imamura and Ray and Cassavetes and Kubrick and Varda and Warhol were reinventing cinema with each new camera movement and each new cut, and more established filmmakers such as Welles and Bresson and Huston and Visconti were reenergized by the surge in creativity around them. <br><br> At the center of it all, there was one director whom everyone knew, one artist whose name was synonymous with cinema and what it could do. It was a name that instantly evoked a certain style, a certain attitude toward the world. In fact, it became an adjective. Let’s say you wanted to describe the surreal atmosphere at a dinner party, or a wedding, or a funeral, or a political convention, or for that matter, the madness of the entire planet—all you had to do was say the word “Felliniesque” and people knew exactly what you meant.';
+    }
+
+    function Msg5(){
+      document.getElementById('myText').innerHTML = 'In the Sixties, Federico Fellini became more than a filmmaker. Like Chaplin and Picasso and the Beatles, he was much bigger than his own art. At a certain point, it was no longer a matter of this or that film but all the films combined as one grand gesture written across the galaxy. Going to see a Fellini film was like going to hear Callas sing or Olivier act or Nureyev dance. His films even started to incorporate his name—Fellini Satyricon, Fellini’s Casanova. The only comparable example in film was Hitchcock, but that was something else: a brand, a genre in and of itself. Fellini was the cinema’s virtuoso. <br><br>By now, he has been gone for almost thirty years. The moment in time when his influence seemed to permeate all of culture is long past. That’s why Criterion’s box set, Essential Fellini, released last year to mark the centennial of his birth, is so welcome.';
+    }
+    </script>
+
   </head>
   <body>
-    <p class="note-one" id="visible">...... If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?</p>
-    <p id="invisible" class="hide">See me now!</p>
+    <!-- <p class="note-one" id="visible">...... If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?</p>
+    <p id="invisible" class="hide">See me now!</p> -->
+
+    <!-- <span id="displayText1"></span>
+    <span id="displayText2"></span>
+    <span id="displayText3"></span> -->
+    
+    <!-- <p class="title">FIRST ACT</p>
+    <div class="notes"> 
+    
+     <p class="one" id="one">
+             <p class="note-one" id="visible"> ...... If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?</p>
+             <p class="line-one"></p>
+             <p class="scene-one"> Scene 1</p>
+     </p>
+
+
+     <p class="two">
+         <p class="note-two" id="visible-two"> ...... Algorithms, by definition, are based on calculations that treat the viewer as a consumer and nothing else.</p>
+         <p class="line-two"></p>
+         <p class="scene-eight"> Scene 8</p>
+     </p>
+
+     <p class="three">
+         <p class="note-three" id="visible-three"> ...... The cinema has always been much more than content, and it always will be, and the years when those films were coming out from all over the world, talking to each other and redefining the art form on a weekly basis, are the proof.
+         </p>
+         <p class="line-three"></p>
+         <p class="scene-twelve"> Scene 12</p>
+     </p>
+
+     <p class="four">
+         <p class="note-four" id="visible-four"> ...... all you had to do was say the word “Felliniesque” and people knew exactly what you meant.
+          </p>
+         <p class="line-four"></p>
+         <p class="scene-seventeen"> Scene 17</p>
+     </p>
+
+     <p class="five">
+         <p class="note-five"id="visible-five"> ...... Essential Fellini, released last year to mark the centennial of his birth, is so welcome.
+         </p>
+         <p class="line-five"></p>
+         <p class="scene-twentyone"> Scene 21</p>
+     </p>
+     </div> -->
+
+     <p class="title">FIRST ACT</p>
+     <div class="notes"> 
+
+    <p id="myText" class="hide">
+      <p class="one">
+              <p class="note-one" id="visible" onclick="Msg1()"> ...... If further viewing is “suggested” by algorithms based on what you’ve already seen, and the suggestions are based only on subject matter or genre, then what does that do to the art of cinema?</p>
+              <p class="line-one"></p>
+              <p class="scene-one"> Scene 1</p>
+      </p> 
+    </p>
+
+    <p id="myText-two" class="hide-two">
+      <p class="two">
+        <p class="note-two" id="visible-two" onclick="Msg2()"> ...... Algorithms, by definition, are based on calculations that treat the viewer as a consumer and nothing else.</p>
+        <p class="line-two"></p>
+        <p class="scene-eight"> Scene 8</p>
+      </p>
+    </p>
+
+    <!-- 
+    <p id="myText" class="hide-three">
+      <p class="three">
+        <p class="note-three" id="visible-three" onclick="Msg3()"> ...... The cinema has always been much more than content, and it always will be, and the years when those films were coming out from all over the world, talking to each other and redefining the art form on a weekly basis, are the proof.
+        </p>
+        <p class="line-three"></p>
+        <p class="scene-twelve"> Scene 12</p>
+      </p>
+    </p>
+
+    <p id="myText" class="hide-four">
+      <p class="four">
+        <p class="note-four" id="visible-four"> ...... all you had to do was say the word “Felliniesque” and people knew exactly what you meant.
+         </p>
+        <p class="line-four"></p>
+        <p class="scene-seventeen"> Scene 17</p>
+      </p>
+    </p>
+
+    <p id="myText" class="hide-five">
+      <p class="five">
+        <p class="note-five"id="visible-five"> ...... Essential Fellini, released last year to mark the centennial of his birth, is so welcome.
+        </p>
+        <p class="line-five"></p>
+        <p class="scene-twentyone"> Scene 21</p>
+      </p>
+    </p> -->
+
+    
+    <!--
+    <input type="button"  onclick="Msg2()" value="Show Message 2">
+    <input type="button"  onclick="Msg3()" value="Show Message 3">
+    <input type="button"  onclick="Msg4()" value="Show Message 4">
+    <input type="button"  onclick="Msg5()" value="Show Message 5">
+    <p id="myText"></p>
+    -->
   </body>
 </html>
 
+
+
+
+ 
