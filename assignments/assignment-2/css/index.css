@@ -308,7 +308,7 @@ body {
     padding: 150px 150px 150px 150px;
     font-size: 18pt;
     text-align: center;
-    background: #ddd;
+    background: hsl(0, 0%, 87%);
     align-items: center;
   }
 
