@@ -52,7 +52,7 @@
 
 .spacing{
     padding-top: -100px;
-    word-spacing: 50px;
+    /* letter-spacing: 50px; */
 }
 
 
@@ -875,7 +875,7 @@
 
     .spacing{
         padding-top: -100px;
-        word-spacing: 50px;
+        letter-spacing: 150px;
     }
 
     .notes{
