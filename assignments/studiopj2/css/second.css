@@ -53,6 +53,8 @@
 .spacing{
     padding-top: -100px;
     /* letter-spacing: 50px; */
+    letter-spacing: 10px;
+
 }
 
 
@@ -676,6 +678,7 @@
 
     color: #FFFFFF;
     background-color: #000000;
+    overflow-y: scroll;
 }
 
 .hide-two{
@@ -875,22 +878,14 @@
 
     .spacing{
         padding-top: -100px;
-        letter-spacing: 150px;
+        letter-spacing: 5px;
     }
 
     .notes{
         /* background-color: aqua; */
         position: relative;
         width: 364px;
-        height: 146px;
-        top: 210px;
-        overflow-x: scroll;
-    }
-
-    .notes{
-        position: relative;
-        width: 364px;
-        height: 152px;
+        height: 166px;
         top: 210px;
         overflow-x: scroll;
     }

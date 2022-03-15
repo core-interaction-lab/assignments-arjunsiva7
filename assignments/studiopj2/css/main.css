@@ -130,13 +130,14 @@
 @media (max-width: 400px){
 
   .home-page{
-    width: 339px;
+    padding-right: 10px;
+    padding-left: 5px;
+
+    width: 360px;
     height: 780px;
     left: 0px;
     top: 10px;
     float: left;
-    padding-left: -150px;
-
     font-family: cn-reg;
   }
 
@@ -148,17 +149,11 @@
 
   .title-text{
     font-family: cn-bold;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 13px;
   }
 
-  .bold-text{
-    position: absolute;
-    width: 339px;
-    height: 785px;
-    padding-left: -100px;
-    top: 0px;
-    
+  .bold-text{ 
     font-family: cn-bold;
     font-size: 10px;
     line-height: 11px;
@@ -173,18 +168,6 @@
     
     color: #000000;
   }
-/* 
-  .body{
-    font-family: cn-reg;
-    font-size: 10px;
-    line-height: 11px;
-    float: left;
-
-    background-color: red;
-    padding-left: -300px;
-    top: 10px;
-    padding-right: 30px;
-  } */
 /*Circles*/
 
 .circle {
@@ -224,10 +207,9 @@
 
   .circle {
     float: left;
-    width: 6.5%;
-    /* padding: 2px; */
-    padding-left: -10px;
-    margin-left: -100px;
+    width: 12.5%;
+    padding: 2px;
+    margin: 5px;
   }
 
   .nav-bar:after {
@@ -235,10 +217,4 @@
     display: table;
     clear: both;
   }
-
-  .body{
-    padding-top: 20px;
-
-  }
-
 }

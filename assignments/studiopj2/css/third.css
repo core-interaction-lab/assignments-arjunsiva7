@@ -51,7 +51,7 @@
 
 .spacing{
     padding-top: -100px;
-    word-spacing: 50px;
+    letter-spacing: 10px;
 }
 
 /*HOVER*/
@@ -522,16 +522,7 @@
         /* background-color: aqua; */
         position: relative;
         width: 364px;
-        height: 146px;
-        top: 210px;
-        overflow-x: scroll;
-    }
-    
-    .notes{
-        /* background-color: red; */
-        position: relative;
-        width: 364px;
-        height: 146px;
+        height: 171px;
         top: 210px;
         overflow-x: scroll;
     }
@@ -823,10 +814,10 @@
     /*Body Content ONE*/
     .hide{
         position: absolute;
-        width: 340px;
+        width: 371px;
         height: 330px;
         left: 7px;
-        top: 330px;
+        top: 350px;
         
         padding-top: 10px;
         padding-bottom: 30px;

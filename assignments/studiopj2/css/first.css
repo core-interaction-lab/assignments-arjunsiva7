@@ -53,7 +53,7 @@
 
 .spacing{
     padding-top: -100px;
-    word-spacing: 50px;
+    letter-spacing: 10px;
 }
 
 
@@ -381,21 +381,9 @@
     color: #FFFFFF;
     background-color: #000000;
     /*color: #C3B534;*/
+    overflow-y: scroll;
 }
 
-.sub-hide{
-    position: absolute;
-    width: 650px;
-    height: 958px;
-    left: 920px;
-    top: 40px;
-
-    font-family: ae-regular;
-    font-size: 28px;
-    line-height: 34px;
-    background-color: #000000;
-    color: #C3B534;
-}
 
 .hide-two{
     position: absolute;
@@ -524,7 +512,7 @@
     /* background-color: aqua; */
     position: relative;
     width: 364px;
-    height: 146px;
+    height: 173px;
     top: 210px;
     overflow-x: scroll;
 }
