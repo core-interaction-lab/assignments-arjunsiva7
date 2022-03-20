@@ -854,9 +854,9 @@
     .home{
         position: absolute;
         width: 337px;
-        height: 40px;
-        left: 195px;
-        top: 160px;
+        height: 20px;
+        left: 186px;
+        top: 170px;
         
         font-family: ae-bold;
         font-size: 22px;
@@ -878,7 +878,7 @@
 
     .spacing{
         padding-top: -100px;
-        letter-spacing: 5px;
+        letter-spacing: 10px;
     }
 
     .notes{
@@ -1411,17 +1411,20 @@
     .hide{
         position: absolute;
         width: 352px;
-        height: 359px;
+        height: 270px;
         left: 11px;
-        top: 370px;
+        top: 382px;
+        margin-bottom: 0px;
+        margin-top: 0px;
 
-        font-family: ae-bold;
-        font-size: 18px;
-        line-height: 20px;
+        font-family: ae-regular;
+        font-size: 26px;
+        line-height: 28px;
         /* or 111% */
         color: #FFFFFF;
     }
 
+/* 
     .hide-two{
         position: absolute;
         width: 352px;
@@ -1429,10 +1432,9 @@
         left: 11px;
         top: 370px;
 
-        font-family: ae-bold;
+        font-family: ae-regular;
         font-size: 18px;
         line-height: 20px;
-        /* or 111% */
         color: #FFFFFF;
     }
 
@@ -1443,10 +1445,9 @@
         left: 11px;
         top: 370px;
 
-        font-family: ae-bold;
+        font-family: ae-regular;
         font-size: 22px;
         line-height: 24px;
-        /* or 111% */
         color: #FFFFFF;
     }
 
@@ -1457,10 +1458,9 @@
         left: 11px;
         top: 370px;
 
-        font-family: ae-bold;
+        font-family: ae-regular;
         font-size: 22px;
         line-height: 24px;
-        /* or 111% */
         color: #FFFFFF;
     }
 
@@ -1471,10 +1471,9 @@
         left: 11px;
         top: 370px;
 
-        font-family: ae-bold;
+        font-family: ae-regular;
         font-size: 22px;
         line-height: 24px;
-        /* or 111% */
         color: #FFFFFF;
     }
 
@@ -1485,10 +1484,9 @@
         left: 11px;
         top: 360px;
 
-        font-family: ae-bold;
+        font-family: ae-regular;
         font-size: 26px;
         line-height: 28px;
-        /* or 111% */
         color: #FFFFFF;
     }
 
@@ -1499,10 +1497,9 @@
         left: 11px;
         top: 360px;
 
-        font-family: ae-bold;
+        font-family: ae-regular;
         font-size: 26px;
         line-height: 28px;
-        /* or 111% */
         color: #FFFFFF;
     }
 
@@ -1513,11 +1510,10 @@
         left: 11px;
         top: 350px;
 
-        font-family: ae-bold;
+        font-family: ae-regular;
         font-size: 30px;
         line-height: 32px;
-        /* or 111% */
-        color: #FFFFFF;
+]        color: #FFFFFF;
     }
 
     .hide-nine{
@@ -1527,10 +1523,10 @@
         left: 11px;
         top: 350px;
 
-        font-family: ae-bold;
+        font-family: ae-regular;
         font-size: 30px;
         line-height: 32px;
-        /* or 111% */
+
         color: #FFFFFF;
     }
 
@@ -1541,12 +1537,12 @@
         left: 11px;
         top: 350px;
 
-        font-family: ae-bold;
+        font-family: ae-regular;
         font-size: 30px;
         line-height: 32px;
-        /* or 111% */
+  
         color: #FFFFFF;
-    }
+    } */
 
 }
 

@@ -481,9 +481,9 @@
 .home{
     position: absolute;
     width: 337px;
-    height: 40px;
-    left: 195px;
-    top: 160px;
+    height: 20px;
+    left: 186px;
+    top: 170px;
     
     font-family: ae-bold;
     font-size: 22px;
@@ -805,10 +805,10 @@
 .hide{
     position: absolute;
     width: 352px;
-    height: 432px;
+    height: 258px;
     left: 11px;
-    top: 352px;
-    padding-top: 10px;
+    top: 370px;
+    padding-top: 5px;
     overflow-y: scroll;
 
     font-family: ae-regular;
@@ -816,6 +816,8 @@
     line-height: 20px;
     /* or 112% */
 }
+
+/* 
 .hide-two {
     position: absolute;
     width: 352px;
@@ -828,7 +830,7 @@
     font-family: ae-regular;
     font-size: 18px;
     line-height: 20px;
-    /* or 112% */
+
 }
 .hide-three {
     position: absolute;
@@ -842,7 +844,7 @@
     font-family: ae-regular;
     font-size: 18px;
     line-height: 20px;
-    /* or 112% */
+
 }
 
 .hide-four {
@@ -857,7 +859,7 @@
     font-family: ae-regular;
     font-size: 18px;
     line-height: 20px;
-    /* or 112% */
+
 }
 
 
@@ -873,8 +875,7 @@
     font-family: ae-regular;
     font-size: 18px;
     line-height: 20px;
-    /* or 112% */
-}
+} */
 
 
 
