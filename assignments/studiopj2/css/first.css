@@ -128,8 +128,8 @@
     position: absolute;
     width: 12.5em;
     height: 9.188em;
-    left: 300px;
-    top: 580px;
+    left: 21.5em;
+    top: 41.250em;
     cursor: cell;
 
     font-family: ae-bold;
@@ -143,10 +143,10 @@
 
 .scene-eight{
     position: absolute;
-    width: 76px;
-    height: 17px;
-    left: 300px;
-    top: 747px;
+    width: 7em;
+    height: 1.063em;
+    left: 25em;
+    top: 62.2em;
     cursor: cell;
     
     font-family: ae-bold;
@@ -158,10 +158,10 @@
 
 .line-two{
     position: absolute;
-    width: 181.5px;
+    width: 11.344em;
     height: 0px;
-    left: 300px;
-    top: 738px;
+    left: 18.6em;
+    top: 46.125em;
     cursor: cell;
     
     border: 1px solid #000000;
@@ -171,10 +171,10 @@
 
 .three{
     position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 531px;
-    top: 568px;
+    width: 12.5em;
+    height: 12.750em;
+    left: 33.188em;
+    top: 35.500em;
     cursor: cell;
 
     background: #FFFFFF;
@@ -182,10 +182,10 @@
 
 .note-three{
     position: absolute;
-    width: 182px;
-    height: 154px;
-    left: 541px;
-    top: 580px;
+    width: 12.8em;
+    height: 9.188em;
+    left: 38.813em;
+    top: 41.250em;
     cursor: cell;
 
     font-family: ae-bold;
@@ -199,10 +199,10 @@
 
 .line-three{
     position: absolute;
-    width: 181.5px;
+    width: 11.344em;
     height: 0px;
-    left: 541px;
-    top: 738px;
+    left: 33.813em;
+    top: 46.125em;
     cursor: cell;
     
     border: 1px solid #000000;
@@ -210,10 +210,10 @@
 
 .scene-twelve{
     position: absolute;
-    width: 76px;
-    height: 17px;
-    left: 541px;
-    top: 747px;
+    width: 4.750em;
+    height: 1.063em;
+    left: 45em;
+    top: 62.2em;
     cursor: cell;
 
     font-family: ae-bold;
@@ -230,10 +230,10 @@
 
 .four{
     position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 49px;
-    top: 818px;
+    width: 12.5em;
+    height: 12.750em;
+    left: 3.063em;
+    top: 51.125em;
     cursor: cell;
 
     background: #FFFFFF;
@@ -241,10 +241,10 @@
 
 .note-four{
     position: absolute;
-    width: 177px;
-    height: 142px;
-    left: 59px;
-    top: 827px;
+    width: 12.6em;
+    height: 8.875em;
+    left: 4.2em;
+    top: 59em;
     cursor: cell;
 
     font-family: ae-bold;
@@ -252,16 +252,15 @@
     line-height: 16px;
     /* or 114% */
 
-
     color: #000000;
 }
 
 .line-four{
     position: absolute;
-    width: 181.5px;
+    width: 11.344em;
     height: 0px;
-    left: 59px;
-    top: 986px;
+    left: 3.563em;
+    top: 61.625em;
     cursor: cell;
 
     border: 1px solid #000000;
@@ -269,10 +268,10 @@
 
 .scene-seventeen{
     position: absolute;
-    width: 88px;
-    height: 17px;
-    left: 59px;
-    top: 995px;
+    width: 5.500em;
+    height: 9.188em;
+    left: 4.8em;
+    top: 83em;
     cursor: cell;
 
     font-family: ae-bold;
@@ -288,10 +287,10 @@
 
 .five{
     position: absolute;
-    width: 201px;
-    height: 204px;
-    left: 290px;
-    top: 818px;
+    width: 12.5em;
+    height: 12.750em;
+    left: 18.125em;
+    top: 51.125em;
     cursor: cell;
 
     background: #FFFFFF;
@@ -299,10 +298,10 @@
 
 .note-five{
     position: absolute;
-    width: 182px;
-    height: 141px;
-    left: 300px;
-    top: 828px;
+    width: 11.375em;
+    height: 8.813em;
+    left: 21.750em;
+    top: 59em;
     cursor: cell;
 
     font-family: ae-bold;
@@ -316,10 +315,10 @@
 
 .line-five{
     position: absolute;
-    width: 181.5px;
+    width: 11.344em;
     height: 0px;
-    left: 300px;
-    top: 986px;
+    left: 18.750em;
+    top: 61.625em;
     cursor: cell;
     overflow-x: scroll;
 
@@ -328,10 +327,10 @@
 
 .scene-twentyone{
     position: absolute;
-    width: 59px;
-    height: 17px;
-    left: 300px;
-    top: 995px;
+    width: 5.500em;
+    height: 9.188em;
+    left: 25em;
+    top: 83em;
     cursor: cell;
 
     font-family: ae-bold;
@@ -382,82 +381,6 @@
     /*color: #C3B534;*/
     overflow-y: scroll;
 }
-
-
-.hide-two{
-    position: absolute;
-    width: 650px;
-    height: 958px;
-    left: 920px;
-    top: 40px;
-    padding-bottom: 100px;
-
-    font-family: ae-regular;
-    font-size: 28px;
-    line-height: 34px;
-    /* or 107% */
-
-    color: #FFFFFF;
-    /*color: #C3B534;*/
-    background-color: #000000;
-}
-
-.hide-three{
-    position: absolute;
-    width: 650px;
-    height: 958px;
-    left: 920px;
-    top: 40px;
-    padding-bottom: 100px;
-
-    font-family: ae-regular;
-    font-size: 28px;
-    line-height: 34px;
-    /* or 107% */
-
-    color: #FFFFFF;
-    /*color: #C3B534;*/
-    background-color: #000000;
-}
-
-.hide-four{
-    position: absolute;
-    width: 650px;
-    height: 958px;
-    left: 920px;
-    top: 40px;
-    padding-bottom: 100px;
-
-    font-family: ae-regular;
-    font-size: 28px;
-    line-height: 34px;
-    /* or 107% */
-
-    color: #FFFFFF;
-    /*color: #C3B534;*/
-    background-color: #000000;
-}
-
-
-.hide-five{
-    position: absolute;
-    width: 650px;
-    height: 958px;
-    left: 920px;
-    top: 40px;
-    padding-bottom: 100px;
-
-    font-family: ae-regular;
-    font-size: 28px;
-    line-height: 34px;
-    /* or 107% */
-
-    color: #FFFFFF;
-    /*color: #C3B534;*/
-    background-color: #000000;
-}
-
-
 
 /*PHONE LAYOUT*/
 
