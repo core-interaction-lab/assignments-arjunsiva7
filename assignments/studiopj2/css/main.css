@@ -11,9 +11,9 @@
 .home-page{
 
     position: absolute;
-    width: 755px;
+    width: 42.13169642857143vw;
     height: 930px;
-    left: 486px;
+    left: 27.120535714285715vw;
     top: 10px;
     padding-bottom: 100px;
     
@@ -70,17 +70,17 @@
   position: relative;
   background-color: rgb(0, 0, 0);
   margin: 20px auto;
-  width: 50px;
-  height: 50px;
-  border-radius: 200px;
-  stroke-width: 3;
+  width: 2.7901785714285716vw;
+  height: 2.7901785714285716vw;
+  border-radius: 11.160714285714286vw;
+  stroke-width: 0.16741071428571427vw;
   stroke: black;
 }
 
 .circle {
     position: relative;
     background-color: rgb(0, 0, 0);
-    margin: 20px auto;
+    margin: 1.1160714285714286vw auto;
     width: 50px;
     height: 50px;
     border-radius: 200px;
@@ -111,9 +111,9 @@
 /*Three columns for menu*/
 .circle {
     float: left;
-    width: 6.5%;
-    padding: 2px;
-    margin: 10px;
+    width: 6.5vw;
+    padding: 0.11160714285714286vw;
+    margin: 0.5580357142857143vw;
   }
   
   .nav-bar:after {
@@ -123,8 +123,7 @@
   }
 
   .body{
-    padding-top: 20px;
-
+    padding-top: 1.1160714285714286vw;
   }
 
 @media (max-width: 400px){

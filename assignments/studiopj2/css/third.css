@@ -10,10 +10,10 @@
 
 .home{
     position: absolute;
-    width: 337px;
-    height: 40px;
-    left: 1426px;
-    top: 35px;
+    width: 18.805803571428573vw;
+    height: 2.232142857142857vw;
+    left: 79.57589285714286vw;
+    top: 1.953125vw;
 
     font-family: ae-bold;
     font-size: 24px;
@@ -524,6 +524,7 @@
         width: 364px;
         height: 171px;
         top: 210px;
+        left: 4px;
         overflow-x: scroll;
     }
     
