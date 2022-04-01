@@ -1,10 +1,5 @@
 const fetchMovies = async () => {
     const response = await fetch("https://api.airtable.com/v0/apptnUxtmjLkLZ6j4/Table%201?maxRecords=10&api_key=keyA0jnAuvBfcVUVl").then(data => data.json()); 
-    /*We need to do soemthing and we don't know how long it's going to take */
-    /*Data is being stored in the constant called response*/
-    /*async and await - wait until we have data from airtable before we continue and do something else*/
-    /*We fetch the data and then execute whatever's after then*/
-    /*Json-  standard for how various web api's will send and recieve data*/
     console.log(response);
 
     const moviesContainer = document.getElementById('movies-container');
@@ -28,7 +23,6 @@ const fetchMovies = async () => {
 
         var div = document.getElementById("movies-container");
 
-
         filmnameEl.innerHTML = movie.fields.filmname; /*It has to match what's getting returned from airtable, in this case 'Title', dont use any spaces in field titles, use undescores*/
         filmmakerEl.innerHTML = movie.fields.filmmaker; 
         yearEl.innerHTML = movie.fields.year; 
@@ -41,6 +35,20 @@ const fetchMovies = async () => {
         moviesContainer.appendChild(articleEl); 
     });
 
+    const linkTags = document.querySelectorAll('.imdb-link');
+    console.log(linkTags); 
+    linkTags.forEach((link, index) =>{
+        const linkColor = link.style.color;
+        link.id = 'my-link-${index+1}';
+    
+        link.addEventListener('mouseover', (evt) =>{
+            link.style.color = "green";
+        });
+    
+        link.addEventListener('mouseout', (evt) =>{
+            link.style.color= linkColor;
+        });
+    });
     
 };
 

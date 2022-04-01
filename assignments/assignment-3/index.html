@@ -8,12 +8,41 @@
     body{
         background-color: black;
     }
+
+    * {
+    box-sizing: border-box;
+    }
+
+    .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
 </style>
 <body>
     <main>
-        <section id="movies-container">
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+                <section id="movies-container"></section>
+            </div>
+            <div class="column" style="background-color:#bbb;">
+                <section id="movies-container"></section>
+            </div>
+            <div class="column" style="background-color:#ccc;">
+            </div>
+          </div>
+
+        <!-- <section id="movies-container">
             
-        </section>
+        </section> -->
     </main>
     <script src="js/main.js"></script>
 </body> 
