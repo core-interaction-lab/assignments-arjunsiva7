@@ -19,30 +19,25 @@ const fetchMovies = async () => {
         const descriptionEl = document.createElement('div'); 
         const genreEl = document.createElement('div');
 
-        // const myObject={
-        //     image: 'image',
-        // }
-/*
-            var img = document.createElement("img");
-            img.src = "https://dl.airtable.com/.attachmentThumbnails/b319a8b1370cfaf4892a896f683dff12/a0ba833e";
-            img.style.width = '600px';
+        filmnameEl.classList.add('filmname');
+        filmmakerEl.classList.add('filmmaker');
+        yearEl.classList.add('year');
+        descriptionEl.classList.add('disc');
+        countryEl.classList.add('cont');
+        genreEl.classList.add('genre');
 
-            var div = document.getElementById("movies-container");
-*/
-        filmnameEl.innerHTML = movie.fields.filmname; /*It has to match what's getting returned from airtable, in this case 'Title', dont use any spaces in field titles, use undescores*/
+        filmnameEl.innerHTML = movie.fields.filmname; 
         filmmakerEl.innerHTML = movie.fields.filmmaker; 
         yearEl.innerHTML = movie.fields.year; 
         countryEl.innerHTML = movie.fields.country;
         descriptionEl.innerHTML = movie.fields.description;
         genreEl.innerHTML = movie.fields.genre; 
 
-        articleEl.append(linebreak,filmnameEl,filmmakerEl,countryEl,genreEl,linebreak,linebreak,);
-        // articleElTwo.append(lbreak,lbreak,lbreak,lbreak,yearEl,);
+        articleEl.append(linebreak,filmnameEl,filmmakerEl,yearEl,countryEl,genreEl,linebreak,linebreak,);
+        articleElTwo.append(filmnameEl,lbreak,filmmakerEl,yearEl,countryEl,genreEl,lbreak);
 
-
-        // moviesContainer.appendChild(articleEl); 
         moviesContainerTwo.appendChild(articleElTwo);
-
+        moviesContainer.appendChild(articleEl); 
 
         const photoImg = document.createElement('img');
         photoImg.classList.add('image-styling');
@@ -53,9 +48,10 @@ const fetchMovies = async () => {
                 photoImg.src = movie.fields.image[0].url;
                 
                 articleElTwo.append(photoImg);
-                photoImg.style.width = '375px';
+                photoImg.style.width = '400px';
             }
         });
+
     });
 
 };
