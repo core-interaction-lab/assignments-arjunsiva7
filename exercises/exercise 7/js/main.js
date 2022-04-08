@@ -54,6 +54,8 @@ const fetchMovies = async () => {
         link.addEventListener('mouseout', (evt) =>{
             link.style.color= linkColor;
         });
+
+        
     });
 
 
