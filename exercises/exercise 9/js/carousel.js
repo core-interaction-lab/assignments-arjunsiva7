@@ -18,48 +18,43 @@ const fetchMovies = async () => {
 };
 
 const buildSlideshow = (movies) => {
-    console.log(movies);
-    console.log(buildSlide(movies[0]));
+    let leftI = 0;
+    let rightI = 6;
 
-    const firstMovie = buildSlide(movies[0]);
-    slideshowContainer.append(firstMovie);
-
-    let currentMovie = 0;
+    const articles = movies.slice(0, 7).map(buildSlide);
+    slideshowContainer.append(...articles);
 
     prevButton.addEventListener('click', () => {
-        if (currentMovie === 0) {
-            currentMovie = movies.length - 1;
-        } else {
-            currentMovie = currentMovie - 1;
+        leftI += 1;
+        rightI += 1;
+        if (rightI >= movies.length) {
+            rightI = 0;
         }
-
-        const movieRecord = movies[currentMovie];
-        swapSlide(movieRecord);
+        if (leftI >= movies.length) {
+            leftI = 0;
+        }
+        slideshowContainer.removeChild(slideshowContainer.children[0]);
+        slideshowContainer.append(buildSlide(movies[rightI]));
     });
 
     nextButton.addEventListener('click', () => {
-        if (currentMovie === movies.length - 1) {
-            currentMovie = 0;
-        } else {
-            currentMovie = currentMovie + 1;
+        leftI -= 1;
+        rightI -= 1;
+        if (leftI < 0) {
+            leftI = movies.length - 1;
         }
-
-        const movieRecord = movies[currentMovie];
-        swapSlide(movieRecord);
+        if (rightI < 0) {
+            rightI = movies.length - 1;
+        }
+        slideshowContainer.removeChild(slideshowContainer.querySelectorAll('article')[6]);
+        slideshowContainer.prepend(buildSlide(movies[leftI]));
     });
-};
-
-const swapSlide = (movieRecord) => {
-    const slideEl = buildSlide(movieRecord);
-
-    slideshowContainer.innerHTML = '';
-    slideshowContainer.append(slideEl);
 };
 
 const buildSlide = (movie) => {
     const movieContainer = document.createElement('article');
     if (movie.fields.poster) {
-        console.log(movie.fields.poster[0].url);
+        // console.log(movie.fields.poster[0].url);
         const posterImg = document.createElement('img');
         posterImg.src = movie.fields.poster[0].url;
         posterImg.classList.add('poster-img', 'dlkjfdl');
@@ -67,7 +62,7 @@ const buildSlide = (movie) => {
         movieContainer.append(posterImg);
     }
     if (movie.fields.release_date) {
-        console.log(movie.fields.release_date);
+        // console.log(movie.fields.release_date);
     }
 
     if (movie.fields.description) {
@@ -78,7 +73,5 @@ const buildSlide = (movie) => {
     }
     return movieContainer;
 };
-
-
 
 fetchMovies();
