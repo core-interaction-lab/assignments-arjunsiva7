@@ -79,6 +79,4 @@ const buildSlide = (movie) => {
     return movieContainer;
 };
 
-
-
 fetchMovies();
