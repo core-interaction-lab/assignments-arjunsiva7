@@ -5,55 +5,524 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <style>
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+
+.dropbtn {
+  background-color: #B49700;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  height: 110px;
+  width: 110px;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  left: 72vw;
+  top: 40vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #4D451C;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #000000;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #B49700;}
+
+
+@media (max-width: 1280px) {
+    .dropbtn {
+        background-color: #B49700;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        height: 110px;
+        width: 110px;
+    }
+
+    .dropdown {
+        position: absolute;
+        display: inline-block;
+        left: 70vw;
+        top: 47vw;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #4D451C;
+        min-width: 150px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        height: 150px;
+        overflow-y: scroll;
+    }
+
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #000000;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #B49700;}
+}
+
+
+@media (max-width: 1024px) {
+    .dropbtn {
+        background-color: #B49700;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        height: 110px;
+        width: 110px;
+    }
+
+    .dropdown {
+        position: absolute;
+        display: inline-block;
+        left: 70vw;
+        top: 60vw;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #4D451C;
+        min-width: 150px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        height: 150px;
+        overflow-y: scroll;
+    }
+
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #000000;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #B49700;}
+}
+
+
+@media (max-width: 768px) {
+    .dropbtn {
+        background-color: #B49700;
+        color: white;
+        padding: 16px;
+        font-size: 12px;
+        border: none;
+        height: 90px;
+        width: 90px;
+    }
+
+    .dropdown {
+        position: absolute;
+        display: inline-block;
+        left: 68.5vw;
+        top: 70vw;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #4D451C;
+        min-width: 150px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        height: 150px;
+        overflow-y: scroll;
+    }
+
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #000000;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #B49700;}
 }
 
 </style>
 </head>
 
-<body>
+<body class="main">
     <div class="left">
         <div class="wrapper">
-            <div style="background-color:#CCAB01";></div>
-            <div style="background-color:#DBBF2D";></div>
-            <div style="background-color:#D3BD47";></div>
-            <div style="background-color:#D4C46B";></div>
-            <div style="background-color:#B49700";></div>
-            <div style="background-color:#BFA624";></div>
-            <div style="background-color:#A89949";></div>
-            <div style="background-color:#B4A558";></div>
-            <div style="background-color:#977F01";></div>
-            <div style="background-color:#9E891C";></div>
-            <div style="background-color:#988A3F";></div>
-            <div style="background-color:#A1944F";></div>
-            <div style="background-color:#786500";></div>
-            <div style="background-color:#766612";></div>
-            <div style="background-color:#736831";></div>
-            <div style="background-color:#797042";></div>
-            <div style="background-color:#514400";></div>
-            <div style="background-color:#4D451C";></div>
-            <div style="background-color:#554E29";></div>
-            <div style="background-color:#524D34";></div>
+
+            <div style="background-color:#CCAB01";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #CCAB01;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#DBBF2D";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #DBBF2D;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#D3BD47";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #D3BD47;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#D4C46B";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #D4C46B;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#B49700";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #B49700;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#BFA624";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #BFA624;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="background-color:#A89949";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #A89949;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="background-color:#B4A558";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #B4A558;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#977F01";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #977F01;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#9E891C";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #9E891C;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#988A3F";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #988A3F;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#A1944F";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #A1944F;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#786500";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #786500;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#766612";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #766612;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#736831";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #736831;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                                <p>Bestowed upon by the ancient title of their people 'Mandalore the Great'.</p> 
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#797042";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #797042;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#514400";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #514400;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#4D451C";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #4D451C;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#554E29";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #554E29;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#524D34";>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-color:  #524D34;">
+
+                      </div>
+                      <div class="flip-card-back">
+                            <a href="three.html">
+                            </a>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        <!-- <div class="flipcard">
+            <div class="face front">Front</div>
+            <div class="face back">Back
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nisl tincidunt, condimentum nibh vitae, bibendum neque. Donec vitae hendrerit arcu. Donec enim lacus, elementum sed justo sed, accumsan commodo libero. Sed at rhoncus elit. Sed ac urna lectus. Morbi nec sem vel lectus placerat porta. Maecenas mollis, lacus nec euismod posuere, neque ante gravida sapien, non fermentum velit leo in nisl. Nunc sed feugiat tortor, sit amet rhoncus sem.</p>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="right">
+        <div class="square">
+            <a href="two.html">
+                <div class="text">Flip the Squares</div>
+            </a>
         </div>
 
-
+        <div class="dropdown">
+            <button class="dropbtn">Game Name</button>
+                <div class="dropdown-content">
+                    <a href="#">Assassin's Creed</a>
+                    <a href="#">Rise of the Tomb Raider</a>
+                    <a href="#">Dark Souls</a>
+                    <a href="#">Dead Cells</a>
+                    <a href="#">Limbo</a>
+                    <a href="#">Undertale</a>
+                    
+                    <a href="#">Detention</a>
+                    <a href="#">Don't Starve</a>
+                    <a href="#">The Binding of Isaac</a>
+                    <a href="#">RWBY: Grimm Eclipse</a>
+                    <a href="#">Grand Theft Auto V</a>
+                    <a href="#">Nier Automata</a>
+                    <a href="#">Batman: Arkham City</a>
+                    <a href="#">To the Moon</a>
+                </div>
+        </div>
     </div>
-    <div class="right">
-        <div class="square"></div>
-        <a href="two.html">
-            <div class="text">Flip the Squares</div>
-        </a>
-    </div>
 
-    <main>
-        <section id="movies-container-two" class="image-styling"></section>
-        <section id="movies-container"></section>
-    </main>
-        <script src="js/main.js"></script>
+    <!-- <main>
+        <section id="games-container-two" class="image-styling"></section>
+        <section id="games-container"></section>
+    </main> -->
+    <!-- <script src="js/main.js"></script> -->
 
 </body>
 </html>    

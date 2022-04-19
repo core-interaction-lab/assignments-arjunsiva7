@@ -1,0 +1,179 @@
+.right{
+    background-color: black;
+    width: 50%;
+    float:right;
+}
+
+.left{
+    background-color: black;
+    width: 50%;
+    float:left;
+}
+
+.box1:hover{
+    transform:scale(1.5);
+}
+
+
+.wrapper{
+    width: 100%;
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-column-gap: 10px; */
+}
+
+.wrapper div{
+    height: 200px;
+    font-size: 1.5rem;
+    display: flex;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+
+}
+/* 
+.wrapper:hover {
+ transform: scale(2x);
+} */
+
+.square{
+    position: absolute;
+    width: 567px;
+    height: 565px;
+    left: 60.267857142857146vw;
+    top: 100px;
+
+    background: #B49700;
+}
+
+#gamesContainer{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    height: 100%; 
+}
+
+.name{
+    position: absolute;
+    width: 299px;
+    height: 15vw;
+    /* left: 40.25rem;
+    top: 1.875rem; */
+    left: 53vw;
+    top: 1vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.5vw;
+    line-height: 6vw;
+    /* or 90% */
+
+
+    color: #CCAB01;
+}
+
+.game{
+    position: absolute;
+    width: 404px;
+    height: 41px;
+    left: 72vw;
+    top: 520px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+.disc{
+    position: absolute;
+    width: 35vw;
+    height: 300px;
+    left: 60vw;
+    top: 600px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    /* or 110% */
+    
+    overflow-x: scroll;
+    color: #CCAB01; 
+}
+@media (max-width: 1024px){
+    .game{
+        position: absolute;
+        width: 404px;
+        height: 41px;
+        left: 60vw;
+        top: 520px;
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 34px;
+    
+        color: #FFFFFF;
+    }
+
+    .lone{
+        border: 1.2px solid #CCAB01;
+        position: absolute;
+        width: 340px;
+        height: 0px;
+        left: 60vw;
+        top: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .game{
+        position: absolute;
+        width: 404px;
+        height: 41px;
+        left: 60vw;
+        top: 520px;
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+    
+        color: #FFFFFF;
+    }
+
+    .lone{
+        border: 1.2px solid #CCAB01;
+        position: absolute;
+        width: 340px;
+        height: 0px;
+        left: 100px;
+        top: 500px;
+    }
+}
+
+.image-styling{
+    position: absolute;
+    width: 100vw;
+    left: 60vw;
+    top: 10vw;
+}
+
+
+.lone{
+    border: 1.2px solid #CCAB01;
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 72vw;
+    top: 500px;
+}

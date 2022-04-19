@@ -32,13 +32,12 @@ const fetchMovies = async () => {
         countryEl.innerHTML = movie.fields.country;
         descriptionEl.innerHTML = movie.fields.description;
         genreEl.innerHTML = movie.fields.genre; 
-
+    
         articleEl.append(filmnameEl,filmmakerEl,yearEl,countryEl,genreEl);
         articleElTwo.append(filmnameEl,lbreak,filmmakerEl,yearEl,countryEl,genreEl,lbreak);
 
         moviesContainerTwo.appendChild(articleElTwo);
         moviesContainer.appendChild(articleEl); 
-
 
         const photoImg = document.createElement('img');
         photoImg.classList.add('image-styling');
