@@ -20,7 +20,6 @@
     display: grid;
     background-color: black;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-column-gap: 10px; */
 }
 
 .wrapper div{
@@ -32,10 +31,6 @@
     justify-content: center;
 
 }
-/* 
-.wrapper:hover {
- transform: scale(2x);
-} */
 
 .square{
     position: absolute;
@@ -58,8 +53,6 @@
     position: absolute;
     width: 299px;
     height: 15vw;
-    /* left: 40.25rem;
-    top: 1.875rem; */
     left: 53vw;
     top: 1vw;
 

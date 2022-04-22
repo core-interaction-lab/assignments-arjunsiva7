@@ -5,7 +5,7 @@ const fetchGames = async () => {
     // https://api.airtable.com/v0/appVvOsHOLrzipYpV/Table%201?maxRecords=100&api_key=keyA0jnAuvBfcVUVl
 
     const moviesContainer = document.getElementById('movies-container');
-    // const moviesContainerTwo = document.getElementById('movies-container-two');
+    // const moviesContainerTwo = document.getElementBy('movies-container-two';
 
     response.records.forEach(games => {
         linebreak = document.createElement("br");

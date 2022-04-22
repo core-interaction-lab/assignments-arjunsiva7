@@ -65,7 +65,6 @@ a:active { text-decoration: none; }
 
 }
 
-
 #gamesContainer{
     color: white;
     display: grid;
@@ -92,22 +91,6 @@ a:active { text-decoration: none; }
     margin-left: 10px;
     margin-right: 10px;
 }
-
-/* 
-  .filmname{
-      font-size: 40px;
-      color: #ca6f1e;
-  }
-
-  .cont{
-      font-size: 20px;
-  }
-
-  .genre{
-    font-size: 20px;
-  } */
-
-
 
 /*FlipCard-two*/
 .flip-card {
@@ -148,60 +131,6 @@ a:active { text-decoration: none; }
     color: white;
     transform: rotateY(180deg);
   }
-
-/*FlipCard-one*/
-  /* .flipcard {
-    perspective: 800;
-    -moz-perspective: 800;
-    -webkit-perspective: 800;
-    margin: 1em auto;
-    width: 40%;
-    border: solid 1em white;
-    border-radius: 0.5em;
-    font-family: Georgia;
-    transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    transition: 0.5s;
-    -moz-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    cursor: pointer;
-}
-.flipcard:hover {
-    box-shadow: 0 0 1em black;
-}
-.flipcard.flipped {
-    transform: rotatey(-180deg);
-    -moz-transform: rotatey(-180deg);
-    -webkit-transform: rotatey(-180deg);
-}
-.flipcard .face {
-    padding: 1em;
-    text-align: center;
-    backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-}
-.flipcard .front {
-    background: #220000;
-    color: white;
-    display: block;
-}
-.flipcard.flipped .front {
-    display:none;
-}
-.flipcard .back {
-    background: #66eeff;
-    color: black;
-    transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    display:none;
-}
-.flipcard.flipped .back {
-    display:block;
-} */
-
 
 .main{
     display: flex;
