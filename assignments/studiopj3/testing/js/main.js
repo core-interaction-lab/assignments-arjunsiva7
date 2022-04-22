@@ -1,7 +1,6 @@
 const fetchGames = async () => {
     const response = await fetch("https://api.airtable.com/v0/appVvOsHOLrzipYpV/Table%201?maxRecords=100&api_key=keyA0jnAuvBfcVUVl").then(data => data.json()); 
     // console.log(response);
-
     // https://api.airtable.com/v0/appVvOsHOLrzipYpV/Table%201?maxRecords=100&api_key=keyA0jnAuvBfcVUVl
 
     const moviesContainer = document.getElementById('movies-container');
@@ -41,7 +40,7 @@ const fetchGames = async () => {
             }
         });
 
-        articleEl.append(linebreak,photoImg,NameEl,GameEl,linebreak,linebreak,descriptionEl,linebreak,linebreak,charstatEl);
+        articleEl.append(lbreak,photoImg,lbreak,lbreak,NameEl,GameEl,lbreak,lbreak,descriptionEl,charstatEl);
         // articleElTwo.append(photoImg,lbreak);
 
         gamesContainer.appendChild(articleEl); 

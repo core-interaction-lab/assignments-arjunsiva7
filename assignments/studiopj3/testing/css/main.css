@@ -244,11 +244,11 @@ a{
   }
 
 #gamesContainer{
-    display: flex;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     overflow-x: scroll;
     color: #ffffff;
     grid-column-gap: 20px;
     margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
   }

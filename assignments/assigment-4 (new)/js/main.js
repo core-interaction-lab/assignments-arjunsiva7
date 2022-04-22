@@ -48,3 +48,16 @@ const fetchContent = async () => {
 };
 
 fetchContent();
+
+
+// const main = async() => {
+//     const response = await fetchContent{url1};
+//     const response = await fetchContent{url2};
+//     const response = await fetchContent{url3};
+//     // console.log(response);
+//     buildAlbums{response1.items};
+//     buildEpisodes{response2};
+//     buildStories{response3.data.children};
+// }
+
+// main();
