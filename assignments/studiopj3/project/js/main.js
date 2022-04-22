@@ -7,7 +7,7 @@ const fetchGames = async () => {
     const moviesContainer = document.getElementById('movies-container');
     // const moviesContainerTwo = document.getElementBy('movies-container-two';
 
-    response.records.forEach(games => {
+    response.records.forEach(response => {
         linebreak = document.createElement("br");
         lbreak = document.createElement("br");
         

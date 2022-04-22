@@ -18,7 +18,6 @@ const fetchGames = async () => {
         const GameEl = document.createElement('div');
         const charstatEl = document.createElement('div');
 
-
         NameEl.classList.add('name');
         GameEl.classList.add('game');
         descriptionEl.classList.add('disc');
@@ -53,12 +52,3 @@ const fetchGames = async () => {
 };
 
 fetchGames();
-
-// $('.flipcard').click(function (e) {
-//     var $card = $(this);
-//     if ($card.hasClass("flipped")) {
-//         $card.removeClass('flipped');
-//     } else {
-//         $card.addClass('flipped');
-//     }
-// });
