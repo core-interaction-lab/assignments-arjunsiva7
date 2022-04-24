@@ -13,7 +13,6 @@ const fetchGames = async () => {
             console.log(record);
 
             lbreak = document.createElement("br");
-            linebreak = document.createElement("br");
             const itemContainer = document.createElement('div');
             const titleEl = document.createElement('h1');
             const nameEl = document.createElement('div');
@@ -44,7 +43,7 @@ const fetchGames = async () => {
                 }
             });
 
-            itemContainer.append(nameEl,linebreak,linebreak,lbreak,photoImg,lbreak,lbreak,titleEl,lbreak,descriptionEl);
+            itemContainer.append(nameEl,lbreak,lbreak,photoImg,lbreak,lbreak,titleEl,lbreak,descriptionEl);
 
         })
     });

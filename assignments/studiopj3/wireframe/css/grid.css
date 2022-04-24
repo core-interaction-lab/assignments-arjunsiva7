@@ -6,7 +6,6 @@
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-    overflow-y: scroll;
     background-color: black;
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
@@ -28,12 +27,6 @@
     position: relative;
 }
 
-/* .wrapper .card-container .card-wrapper {
-    width: 100%;
-    height: 0;
-    padding-top: 100%;
-    display: block;
-} */
 
 .wrapper .card-container:after {
     content: '';
@@ -50,13 +43,12 @@
 
 .right{
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     background-color: black;
-
+    width: auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .main{
@@ -70,7 +62,7 @@ a{
     text-decoration: none;
 }
 
-/* .square{
+.square{
     width: 30vw;
     height: 30vw;
     background: #B49700;
@@ -89,8 +81,8 @@ a{
 
     color: #FFFFFF;
     z-index: 5;
-}  */
-
+} 
+/* 
 @media (max-width: 1280px) {
     .text{
         font-family: Arial, Helvetica, sans-serif;
@@ -128,7 +120,7 @@ a{
         color: #FFFFFF;
         z-index: 5;
     } 
-}   
+}    */
 
 
 
@@ -139,8 +131,8 @@ a{
     padding: 16px;
     font-size: 16px;
     border: none;
-    height: 200px;
-    width: 200px;
+    height: 110px;
+    width: 110px;
 }
   
   .dropdown {
@@ -234,9 +226,9 @@ a{
     
     .right{
         display: flex;
-        flex: 1;
+        /* flex: 1; */
         background-color: black;
-    width: 50%;
+        width: 50%;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -303,46 +295,30 @@ a{
 
 .name{
     color: #B49700;
-    font-size: 20pt;
-    margin-left: 50pt;
 
 }
 
 .charname{
     color: #B49700;
-    font-size: 50pt;
-    margin-left: 50pt;
-
-}
-
-.image-styling{
-    margin-left: 50pt;
+    font-size: 30pt;
 }
 
 .des{
     color: #B49700;
-    grid-column-start: 1;
+    display: grid;
+    grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 5;
-    margin-left: 100px;
-    height: 30vh;
+    margin-left: 30px;
+    height: 40vh;
     overflow-y: scroll;
-    font-size: 20pt;
    }
 
-/* #right-container {
+#right-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 100%);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 16.67%);
     margin-left: 10px;
-    margin-right: 10px;
-    padding-right: 20px;
-    margin-top: 20px;
-} */
-    /* grid-template-rows: repeat(6, 16.67%); */
-
-
-.right-opening.dropdown{
-    display: block;
+    margin-right: 30px;
 }
