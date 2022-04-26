@@ -1,63 +1,41 @@
-const fetchContent = async () => {
-    const response = await fetch('https://interactionlab.space/data/assignment-4-2.json').then(data => data.json());
-    console.log(response);
+const wire = document.getElementById('wire-series');
 
-    const wire = document.getElementById('wireContainer');
-    // const moviesContainerTwo = document.getElementById('movies-container-two');
-
-    response.records.forEach(data => {
-        linebreak = document.createElement("br");
-        lbreak = document.createElement("br");
-        
-        const articleEl = document.createElement('article');
-        const articleElTwo = document.createElement('article');
-        const airdateEl = document.createElement('div');
-        const runtimeEl = document.createElement('div');
-        const summaryEl = document.createElement('div');
-        const averageEl = document.createElement('div');
-        const nameEl = document.createElement('div');
-
-        nameEl.classList.add('name');
-        averageEl.classList.add('avg');
-        summaryEl.classList.add('sum');
-        runtimeEl.classList.add('run');
-        airdateEl.classList.add('date');
-
-        nameEl.innerHTML = data.fields.name; 
-        averageEl.innerHTML = data.fields.average;
-        summaryEl.innerHTML = data.fields.summary; 
-        runtimeEl.innerHTML = data.fields.runtime; 
-        airdateEl.innerHTML = data.fields.airdate; 
-
-        const photoImg = document.createElement('img');
-        photoImg.classList.add('image-styling');
-
-        response.records.forEach((image) => {
-            if(content.fields.image){
-                photoImg.src = data.fields.image[0].url;
-
-                articleElTwo.append(photoImg);
-                photoImg.style.width = '200px';
-            }
-        });
-
-        articleEl.append(linebreak,photoImg,nameEl,averageEl,runtimeEl,linebreak,linebreak,summaryEl);
-        wireContainer.appendChild(articleEl); 
-    });
-
+const fetchContent = (fetchUrl) => {
+    return fetch(fetchUrl).then(data => data.json());
 };
 
-fetchContent();
+
+const episodes = episodes => {
+    episodes.forEach(item=> {
+        console.log(item);
+        lbreak = document.createElement("br");
+        Season = document.createElement("div");
 
 
-// const main = async() => {
-//     const response = await fetchContent{url1};
-//     const response = await fetchContent{url2};
-//     const response = await fetchContent{url3};
-//     // console.log(response);
-//     buildAlbums{response1.items};
-//     buildEpisodes{response2};
-//     buildStories{response3.data.children};
-// }
+        const imgEl = document.createElement('img');
+        const summaryEl = document.createElement('div');
+        const nameEl = document.createElement('div');
+        const airstampEl = document.createElement('div');
 
-// main();
+
+        summaryEl.innerHTML = item.summary; 
+        nameEl.innerHTML = item.name;
+        airstampEl.innerHTML = item.airstamp;
+
+        summaryEl.classList.add('sum');
+        nameEl.classList.add('name');
+        imgEl.classList.add('img');
+        airstampEl.classList.add('air');
+
+
+        imgEl.setAttribute('src', item.image.medium);
+        wire.append(nameEl,imgEl,summaryEl);
+    });
+};
+
+const call = async () => {
+    const response2 = await fetchContent('https://interactionlab.space/data/assignment-4-2.json');
+    episodes(response2)
+}
+
+call();
