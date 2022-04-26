@@ -5,7 +5,6 @@ const fetchMovies = async () => {
     const moviesContainer = document.getElementById('movies-container');
     const moviesContainerTwo = document.getElementById('movies-container-two');
 
-
     response.records.forEach(movie => {
         linebreak = document.createElement("br");
         lbreak = document.createElement("br");

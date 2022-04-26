@@ -1,0 +1,50 @@
+#movies-container{
+
+    color: white;
+    display: grid;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    height: 100%;
+}
+
+#movies-container-two{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    height: 100%;
+    margin-top: 75px;
+}
+
+/* .image-styling{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    align-items: start;
+    margin-left: 10px;
+    margin-right: 10px;
+  } */
+
+  .image-styling {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    grid-column-gap: 25px;
+  }
+
+  .filmname{
+      font-size: 40px;
+      color: #bb8000;
+  }
+
+  .cont{
+      font-size: 20px;
+  }
+
+  .genre{
+    font-size: 20px;
+  }
+
+
+
