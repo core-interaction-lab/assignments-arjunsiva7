@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'geo';
+    src: url("geo.ttf");
+}
+
 /*GRIDS*/
 .wrapper{
     /* width: 50%; */
@@ -134,7 +139,7 @@ a{
 
 
 .dropbtn {
-    background-color: #B49700;
+    /* background-color: #B49700; */
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -261,8 +266,7 @@ a{
     }
 
     .text{
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: normal;
+        font-family: geo;
         font-size: 30px;
         width: fit-content;
 
@@ -301,18 +305,21 @@ a{
 
 /*Styling for the java script*/
 
+
+
+
 .name{
-    color: #B49700;
+    /* color: #B49700; */
     font-size: 20pt;
     margin-left: 50pt;
-
+    font-family: geo;
 }
 
 .charname{
-    color: #B49700;
+    /* color: #B49700; */
     font-size: 50pt;
     margin-left: 50pt;
-
+    font-family: geo;
 }
 
 .image-styling{
@@ -320,15 +327,14 @@ a{
 }
 
 .des{
-    color: #B49700;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    /* color: #B49700; */
     margin-left: 100px;
-    height: 30vh;
+    height: 50vh;
     overflow-y: scroll;
     font-size: 20pt;
+    margin-right: 90px;
+    font-family: geo;
+
    }
 
 /* #right-container {
