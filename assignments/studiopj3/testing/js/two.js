@@ -8,8 +8,8 @@ const fetchGames = async () => {
         // Array.from(document.querySelectorAll('.select-item-btn')).map(btn => {
         //     btn.addEventListener('click', evt => {
         //         const record = response.records[btn.dataset.itemIndex];
-                    linebreak = document.createElement("br");
-                    lbreak = document.createElement("br");
+        //             linebreak = document.createElement("br");
+        //             lbreak = document.createElement("br");
                     line = document.createElement("hr");
 
                     const articleEl = document.createElement('article');
