@@ -368,3 +368,64 @@ a{
     align-items: center;
     margin-top: 20px;
 }
+
+@media(max-width: 800px){
+
+    .name{
+        font-size: 16pt;
+    }
+
+    .charname{
+        font-size: 30pt;
+    }
+
+    .des{
+        font-size: 16pt;
+        margin-right: 20px;
+        height: 30vh;
+    }
+
+    button{
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 11px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 1180px){
+    .name{
+        font-size: 18pt;
+    }
+
+    .charname{
+        font-size: 36pt;
+    }
+
+    .des{
+        font-size: 18pt;
+        margin-right: 20px;
+        height: 34vh;
+    }
+
+    button{
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        line-height: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+}
