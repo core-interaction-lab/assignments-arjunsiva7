@@ -333,7 +333,7 @@ a{
 .des{
     /* color: #B49700; */
     margin-left: 100px;
-    height: 50vh;
+    height: 40vh;
     overflow-y: scroll;
     font-size: 20pt;
     margin-right: 90px;
@@ -355,4 +355,14 @@ a{
 
 .right-opening.dropdown{
     display: block;
+}
+
+.home{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: geo;
+    /* background-color: #B49700; */
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
 }

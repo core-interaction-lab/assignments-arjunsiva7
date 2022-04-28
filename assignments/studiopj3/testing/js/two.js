@@ -2,29 +2,40 @@ const fetchGames = async () => {
     const response = await fetch("https://api.airtable.com/v0/appVvOsHOLrzipYpV/Table%201?maxRecords=100&api_key=keyA0jnAuvBfcVUVl").then(data => data.json()); 
     console.log(response);
 
-    const moviesContainer = document.getElementById('gamesContainer');
+    const gamesContainer = document.getElementById('games-container');
+    response.records.forEach(record => {
+        linebreak = document.createElement("br");
+        lbreak = document.createElement("br");
+        
+        const articleEl = document.createElement('article');
+        const itemContainer = document.createElement('div');
+        const titleEl = document.createElement('h1');
+        const nameEl = document.createElement('div');
+        // const descriptionEl = document.createElement('div');
 
-    response.records.forEach(games => {
-        // Array.from(document.querySelectorAll('.select-item-btn')).map(btn => {
-        //     btn.addEventListener('click', evt => {
-        //         const record = response.records[btn.dataset.itemIndex];
-        //             linebreak = document.createElement("br");
-        //             lbreak = document.createElement("br");
-                    line = document.createElement("hr");
+        titleEl.innerHTML = record.fields.Game;
+        nameEl.innerHTML = record.fields.Name;
+        // descriptionEl.innerHTML = record.fields.description;
 
-                    const articleEl = document.createElement('article');
-                    const articleElTwo = document.createElement('article');
-                    const NameEl = document.createElement('div');
+        titleEl.classList.add('name');
+        nameEl.classList.add('charname');
+        // descriptionEl.classList.add('des');
 
+        const photoImg = document.createElement('img');
+        photoImg.classList.add('image-styling');
 
-                    NameEl.classList.add('name');
-                    NameEl.innerHTML = games.fields.Name; 
+        response.records.forEach((image) => {
+            // console.log(image);
+            if(record.fields.image){
+                photoImg.src = record.fields.image[0].url;
 
-                    articleEl.append(NameEl,lbreak);
-                    // articleElTwo.append(photoImg,lbreak);
+                // gamesContainer.append(photoImg);
+                photoImg.style.width = '200px';
+            }
+        });
 
-                    gamesContainer.appendChild(articleEl); 
-                    // gamesContainerTwo.appendChild(articleElTwo);
+        articleEl.append(nameEl,linebreak,titleEl,lbreak,photoImg,linebreak,linebreak,linebreak);
+        gamesContainer.appendChild(articleEl); 
 
     });
 
