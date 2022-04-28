@@ -403,16 +403,24 @@ a{
 @media(max-width: 1180px){
     .name{
         font-size: 18pt;
+        margin-left: 35px;
     }
 
     .charname{
         font-size: 36pt;
+        margin-left: 35px;
+
     }
 
     .des{
         font-size: 18pt;
         margin-right: 20px;
         height: 34vh;
+        margin-left: 65px;
+    }
+
+    .image-styling{
+        margin-left: 35px;
     }
 
     button{
@@ -423,9 +431,49 @@ a{
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 14px;
-        margin: 4px 2px;
+        margin: 4px;
+        cursor: pointer;
+    }
+}
+
+
+
+@media(max-width: 650px){
+    .name{
+        font-size: 14pt;
+        margin-left: 35px;
+    }
+
+    .charname{
+        font-size: 30pt;
+        margin-left: 35px;
+
+    }
+
+    .des{
+        font-size: 14pt;
+        margin-right: 20px;
+        height: 34vh;
+        margin-left: 65px;
+    }
+
+    .image-styling{
+        margin-left: 35px;
+    }
+
+    button{
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 14px;
+        margin: 4px;
         cursor: pointer;
     }
 }
