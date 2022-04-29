@@ -367,6 +367,48 @@ a{
     padding: 10px;
     align-items: center;
     margin-top: 20px;
+    font-family: geo;
+
+}
+
+
+@media(max-width: 650px){
+    .name{
+        font-size: 18pt;
+        margin-left: 35px;
+    }
+
+    .charname{
+        font-size: 36pt;
+        margin-left: 35px;
+
+    }
+
+    .des{
+        font-size: 18pt;
+        margin-right: 20px;
+        height: 34vh;
+        margin-left: 65px;
+    }
+
+    .image-styling{
+        margin-left: 35px;
+    }
+
+    button{
+        background-color: white;
+        border: none;
+        color: black;
+        /* padding: 2px; */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        line-height: 11px;
+        /* margin: 4px; */
+        cursor: pointer;
+        font-family: geo;
+    }
 }
 
 @media(max-width: 800px){
@@ -389,14 +431,15 @@ a{
         background-color: white;
         border: none;
         color: black;
-        padding: 10px;
+        /* padding: 10px; */
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 12px;
-        line-height: 11px;
-        margin: 4px 2px;
+        font-size: 10px;
+        line-height: 10px;
+        /* margin: 4px 2px; */
         cursor: pointer;
+        font-family: geo;
     }
 }
 
@@ -427,53 +470,14 @@ a{
         background-color: white;
         border: none;
         color: black;
-        padding: 10px;
+        /* padding: 2px; */
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 14px;
-        line-height: 14px;
-        margin: 4px;
+        font-size: 10px;
+        line-height: 11px;
+        /* margin: 4px; */
         cursor: pointer;
-    }
-}
-
-
-
-@media(max-width: 650px){
-    .name{
-        font-size: 14pt;
-        margin-left: 35px;
-    }
-
-    .charname{
-        font-size: 30pt;
-        margin-left: 35px;
-
-    }
-
-    .des{
-        font-size: 14pt;
-        margin-right: 20px;
-        height: 34vh;
-        margin-left: 65px;
-    }
-
-    .image-styling{
-        margin-left: 35px;
-    }
-
-    button{
-        background-color: white;
-        border: none;
-        color: black;
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-        line-height: 14px;
-        margin: 4px;
-        cursor: pointer;
+        font-family: geo;
     }
 }
