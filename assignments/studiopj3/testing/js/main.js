@@ -38,7 +38,6 @@ const fetchGames = async () => {
                     photoImg.style.width = '200px';
                 }
             });
-
             itemContainer.append(nameEl,linebreak,linebreak,lbreak,photoImg,lbreak,lbreak,titleEl,lbreak,descriptionEl);
 
         })
