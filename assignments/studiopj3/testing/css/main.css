@@ -319,15 +319,6 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-
 /*Styling for the java script*/
 .name{
     font-size: 20pt;
@@ -362,7 +353,7 @@ a{
 
 .home{
     color: #ffffff;
-    font-size: 14px;
+    font-size: 14pt;
     font-family: geo;
     padding: 10px;
     align-items: center;
@@ -399,15 +390,14 @@ a{
         background-color: white;
         border: none;
         color: black;
-        /* padding: 2px; */
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 10px;
+        font-size: 10pt;
         line-height: 11px;
-        /* margin: 4px; */
         cursor: pointer;
         font-family: geo;
+        width: inherit;
     }
 }
 
@@ -435,7 +425,7 @@ a{
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 10px;
+        font-size: 10pt;
         line-height: 10px;
         /* margin: 4px 2px; */
         cursor: pointer;
@@ -474,8 +464,8 @@ a{
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 10px;
-        line-height: 11px;
+        font-size: 12pt;
+        line-height: 13px;
         /* margin: 4px; */
         cursor: pointer;
         font-family: geo;
