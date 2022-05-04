@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "times";
+    src: url("times.ttf")
+}
+
+.main{
+    font-family: times;
+}
+
+  body{
+    /* background-size: cover; */
+    font-family: times; 
+  }
+  .container{
+    display: inline-block;
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid #38cd2c;
+    white-space: nowrap;
+    animation: typing 2s forwards;
+    font-size: 14pt;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 44% }
+  }
+    
+
+  body {
+    font-family: times;
+    /* text-align: center; */
+    margin-top: 20px;
+  }
+  
+  input[type=password], input[type=text] {
+    border: 1px #b6e7f9 solid;
+    padding: 5px 10px;
+  }
+  
+  input[type=checkbox] {
+    vertical-align: middle;
+  }
+/*   
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #65b0ed;
+    border: none;
+    /* display: inline-block; 
+    cursor: pointer;
+} */
+  
+
+  
+  
