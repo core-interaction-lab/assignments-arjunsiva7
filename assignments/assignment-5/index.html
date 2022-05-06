@@ -1,0 +1,49 @@
+<html lang="eng">
+<head>
+    <title>Case Check</title>
+    <script>src="js/main.js"</script>
+</head>
+<!-- <body>
+    <script type="text/javascript">
+        var typed = prompt("Enter some words.");
+        var result = checkCase(typed);
+        document.write("Number of letters: " + result[0] + "br /");
+        document.write("Number of lowercase letters: " + result[1] + "br /");
+        document.write("Number of uppercase letters: " + result[2] + "br /");
+        document.write("Number of spaces: " + result[3] + "br /");
+        document.write("Number of words: " + result[4] + "br /");
+    </script>
+</body> -->
+<body>
+    <script>
+        function Count(str)
+        {
+        var upper = 0,
+            lower = 0,
+            number = 0,
+            special = 0;
+        for (var i = 0; i < str.length; i++)
+        {
+            if (str[i] >= "A" && str[i] <= "Z") upper++;
+            else if (str[i] >= "a" && str[i] <= "z") lower++;
+            else if (str[i] >= "0" && str[i] <= "9") number++;
+            else special++;
+        }
+        document.write("Upper case letters: " + upper + "<br>");
+        document.write("Lower case letters : " + lower + "<br>");
+        document.write("Number : " + number + "<br>");
+        document.write("Special characters : " + special + "<br>");
+        }
+        function getInputValue(){
+            // Driver function
+            var str = document.getElementById("text");
+            Count(str);
+        }
+
+    </script>
+
+</body>
+    <input type="text" id="text" placeholder="Enter your text"><br>
+    <button type="button" onclick="getInputValue();">Get Value</button>
+
+</html>
