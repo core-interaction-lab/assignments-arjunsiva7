@@ -53,6 +53,11 @@
     cursor: pointer;
 } */
   
+h1{
+  font-size: 14pt;
+  font-family: times;
+}
 
-  
-  
+#myCheck_1{
+  margin-left: 20px;
+}

@@ -20,5 +20,5 @@ function check_password (input_element) {
     else
         document.getElementById ('show').style.display = 'none';
   
-  }
+}
   
