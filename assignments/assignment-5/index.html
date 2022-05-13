@@ -1,49 +1,28 @@
-<html lang="eng">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Case Check</title>
-    <script>src="js/main.js"</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment-5</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<!-- <body>
-    <script type="text/javascript">
-        var typed = prompt("Enter some words.");
-        var result = checkCase(typed);
-        document.write("Number of letters: " + result[0] + "br /");
-        document.write("Number of lowercase letters: " + result[1] + "br /");
-        document.write("Number of uppercase letters: " + result[2] + "br /");
-        document.write("Number of spaces: " + result[3] + "br /");
-        document.write("Number of words: " + result[4] + "br /");
-    </script>
-</body> -->
-<body>
-    <script>
-        function Count(str)
-        {
-        var upper = 0,
-            lower = 0,
-            number = 0,
-            special = 0;
-        for (var i = 0; i < str.length; i++)
-        {
-            if (str[i] >= "A" && str[i] <= "Z") upper++;
-            else if (str[i] >= "a" && str[i] <= "z") lower++;
-            else if (str[i] >= "0" && str[i] <= "9") number++;
-            else special++;
-        }
-        document.write("Upper case letters: " + upper + "<br>");
-        document.write("Lower case letters : " + lower + "<br>");
-        document.write("Number : " + number + "<br>");
-        document.write("Special characters : " + special + "<br>");
-        }
-        function getInputValue(){
-            // Driver function
-            var str = document.getElementById("text");
-            Count(str);
-        }
+    <body>
+        <main>
+            <div id="feed-in">
+                <textarea id="verb-1-input" placeholder="verb"></textarea>
+                <textarea id="verb-2-input" placeholder="verb"></textarea>
+                <textarea id="noun-1-input" placeholder="noun"></textarea>
+                <textarea id="noun-2-input" placeholder="noun"></textarea>
+            </div>
 
-    </script>
-
-</body>
-    <input type="text" id="text" placeholder="Enter your text"><br>
-    <button type="button" onclick="getInputValue();">Get Value</button>
-
+            <div id="writing">
+                <h3>The Road Not Taken</h3><br>
+                <p>Two roads <span id="verb-1"></span> in a yellow wood</p>
+                <p> And sorry I could not <span id="verb-2"></span> both</p>
+                <p>And be one <span id="noun-1"></span>, long I stood</p>
+                <p>And looked down one as far as I could</p>
+                <p>To where it bent in the <span id="noun-2"></span>;</p>
+            </div>
+            <script src="js/main.js"></script>
+        </main>
+    </body>
 </html>

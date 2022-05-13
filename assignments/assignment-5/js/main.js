@@ -1,36 +1,25 @@
-// function checkCase(text)
-// {   
+const attachEventListeners = (input, output) => {
+    input.addEventListener('keyup', function() {
+        output.innerHTML = input.value;
+    })
+};
 
-//     var counter = 0;
-//     var letters = 0;
-//     var lowercase = 0;
-//     var uppercase = 0;
-//     var spaces = 0;
-//     var words = 0;
+const verb1Input = document.getElementById('verb-1-input');
+const verb1Output = document.getElementById('verb-1');
 
+attachEventListeners(verb1Input, verb1Output);
 
-//     for(; counter < text.length; counter++)
-//     {
-//         if(isUpperCase(text.charAt(counter))) {uppercase ++; letters++;}
-//         if(isLowerCase(text.charAt(counter))) {lowercase ++; letters++;} 
-//         if((text.charAt(counter) == " ") && (counter < text.length))
-//         {
-//             spaces += 1;
-//             words += 1;
-//         }
-//         if((text.charAt(counter) == ".") || (text.charAt(text(counter)) == ",")) continue;
-//     }
-//     return  [letters, lowercase, uppercase, spaces, words];
-// }
+const verb2Input = document.getElementById('verb-2-input');
+const verb2Output = document.getElementById('verb-2');
 
-// function isUpperCase(character)
-// {
-//     if(character == character.toUpperCase) return true;
-//     else return false;
-// }
+attachEventListeners(verb2Input, verb2Output);
 
-// function isLowerCase(character)
-// {
-//     if(character == character.toLowerCase) return true;
-//     else return false;
-// }
+const noun1Input = document.getElementById('noun-1-input');
+const noun1Output = document.getElementById('noun-1');
+
+attachEventListeners(noun1Input, noun1Output);
+
+const noun2Input = document.getElementById('noun-2-input');
+const noun2Output = document.getElementById('noun-2');
+
+attachEventListeners(noun2Input, noun2Output);
