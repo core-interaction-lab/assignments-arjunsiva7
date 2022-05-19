@@ -906,14 +906,3 @@ function fun34() {
       textTwentySeven.style.display = "none";  
   }
 }
-
-
-
-
-
-
-
-
-
-
-
