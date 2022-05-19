@@ -825,13 +825,13 @@ function fun31() {
 
 function fun32() {
   var checkBox = document.getElementById("test-ThirtyTwo");
-  var textTwentyOne = document.getElementById("u");
-  var textTwentyTwo = document.getElementById("v");
-  var textTwentyThree = document.getElementById("w");
-  var textTwentyFour = document.getElementById("x");
-  var textTwentyFive = document.getElementById("y");
-  var textTwentySix = document.getElementById("z");
-  var textTwentySeven = document.getElementById("aa");
+  var textTwentyOne = document.getElementById("bb");
+  var textTwentyTwo = document.getElementById("cc");
+  var textTwentyThree = document.getElementById("dd");
+  var textTwentyFour = document.getElementById("ee");
+  var textTwentyFive = document.getElementById("ff");
+  var textTwentySix = document.getElementById("gg");
+  var textTwentySeven = document.getElementById("hh");
     if (checkBox.checked == true){
       textTwentyOne.style.display = "none";
       textTwentyTwo.style.display = "none";
@@ -853,13 +853,13 @@ function fun32() {
 
 function fun33() {
   var checkBox = document.getElementById("test-ThirtyThree");
-  var textTwentyOne = document.getElementById("u");
-  var textTwentyTwo = document.getElementById("v");
-  var textTwentyThree = document.getElementById("w");
-  var textTwentyFour = document.getElementById("x");
-  var textTwentyFive = document.getElementById("y");
-  var textTwentySix = document.getElementById("z");
-  var textTwentySeven = document.getElementById("aa");
+  var textTwentyOne = document.getElementById("bb");
+  var textTwentyTwo = document.getElementById("cc");
+  var textTwentyThree = document.getElementById("dd");
+  var textTwentyFour = document.getElementById("ee");
+  var textTwentyFive = document.getElementById("ff");
+  var textTwentySix = document.getElementById("gg");
+  var textTwentySeven = document.getElementById("hh");
     if (checkBox.checked == true){
       textTwentyOne.style.display = "none";
       textTwentyTwo.style.display = "none";
@@ -881,13 +881,13 @@ function fun33() {
 
 function fun34() {
   var checkBox = document.getElementById("test-ThirtyFour");
-  var textTwentyOne = document.getElementById("u");
-  var textTwentyTwo = document.getElementById("v");
-  var textTwentyThree = document.getElementById("w");
-  var textTwentyFour = document.getElementById("x");
-  var textTwentyFive = document.getElementById("y");
-  var textTwentySix = document.getElementById("z");
-  var textTwentySeven = document.getElementById("aa");
+  var textTwentyOne = document.getElementById("bb");
+  var textTwentyTwo = document.getElementById("cc");
+  var textTwentyThree = document.getElementById("dd");
+  var textTwentyFour = document.getElementById("ee");
+  var textTwentyFive = document.getElementById("ff");
+  var textTwentySix = document.getElementById("gg");
+  var textTwentySeven = document.getElementById("hh");
     if (checkBox.checked == true){
       textTwentyOne.style.display = "none";
       textTwentyTwo.style.display = "none";
