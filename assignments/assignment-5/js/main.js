@@ -1,9 +1,3 @@
-const attachEventListeners = (input, output) => {
-    input.addEventListener('keyup', function() {
-        output.innerHTML = input.value;
-    })
-};
-
 const verb1Input = document.getElementById('verb-1-input');
 const verb1Output = document.getElementById('verb-1');
 
@@ -23,3 +17,9 @@ const noun2Input = document.getElementById('noun-2-input');
 const noun2Output = document.getElementById('noun-2');
 
 attachEventListeners(noun2Input, noun2Output);
+
+const attachEventListeners = (input, output) => {
+    input.addEventListener('keyup', function() {
+        output.innerHTML = input.value;
+    })
+};

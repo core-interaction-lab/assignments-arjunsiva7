@@ -42,16 +42,6 @@
   input[type=checkbox] {
     vertical-align: middle;
   }
-/*   
-  button {
-    padding: 10px 20px;
-    margin-top: 20px;
-    color: #fff;
-    background-color: #65b0ed;
-    border: none;
-    /* display: inline-block; 
-    cursor: pointer;
-} */
   
 h1{
   font-size: 14pt;
@@ -64,4 +54,15 @@ h1{
 
 #myCheck{
   font-size: 100px;
+}
+
+.fontt{
+  font-size: 80px;
+  float: right;
+}
+
+#label-container{
+  float: right;
+  font-size: 80px;
+  margin-right: 20px;
 }

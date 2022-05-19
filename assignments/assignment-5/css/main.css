@@ -2,6 +2,9 @@
     font-family: monospace;
     line-height: 10px;
 }
+#writing {
+    font-size: 14pt;
+}
 
 body {
     color: black;
@@ -23,11 +26,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: row; 
-}
-
-#writing {
-    font-size: 14pt;
 }
 
 textarea {
@@ -36,4 +34,5 @@ textarea {
     height: 2vw;
     line-height: 2vw;
     margin: 5px;
+    flex-direction: row; 
 }

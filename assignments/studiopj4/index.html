@@ -24,15 +24,15 @@ h1{
     <div class="typewriter">
         <div class="typed-out">Hi there, really appreciate you for coming to get a reality check</div>
     </div>
-    <h1>Please enter the password</h1>
+    <h1>Please enter the password (clue: it's the name of the website)</h1>
 
     <form id="password-form">
       <input type="text" id="password-field"><br>
       <button type="submit">Submit</button>
     </form>
-    <br><br>
+
     <div id="hidden_div" style="display: none;">
-    <div id="show">
+      <br><br>
       <input class="language-checkbox" type="checkbox" id="myCheck" data-language="HTML" onclick="myFunction()">
       <label for="myCheck">HTML</label><br>
       <input class="language-checkbox" type="checkbox" id="myCheck_one" data-language="CSS" onclick="myFunction1()">
@@ -45,130 +45,177 @@ h1{
       <label for="myCheck">C++</label><br> 
       <input class="language-checkbox" type="checkbox" id="myCheck_five" data-language="PHP" onclick="myFunction5()">
       <label for="myCheck">PHP</label><br> 
-<br>
+      <br>
       <div id="label-container"></div>
         <button type="button" id="language-submit">Continue</button>
       </div>  
-  </div>
+    </div> 
 
-
-  <!-- <p class="label" id="text" style="display:none">Looks fine</p>
-  <p class="label" id="text1" style="display:none">Oppssssss</p>
+  <!-- <p class="label" id="text1" style="display:none">Oppssssss</p>
   <p class="label" id="text2" style="display:none">Alright things are getting very intense here</p>
   <p class="label" id="text3" style="display:none">Alright, looks like you're gonna lose your sanity</p>
   <p class="label" id="text4" style="display:none">Never mind, looks like you've already lost your sanity</p>
   <p class="label" id="text5" style="display:none">My deep condolenses</p> -->
 
-<!--HTML-->
+<!--HTML-->  
     <br><br>
-    <div id="one" style="display:none" onclick="fun1()">
-      <!-- <input type="checkbox" id="myCheck"> -->
-      <label for="myCheck">HTML</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
-      <label for="myCheck1">basic</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
-      <label for="myCheck1">intermediate</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
-      <label for="myCheck1">advanced</label><br>
-    </div>  
-    <br>
+    <div id="one" style="display:none">
+      <!-- <input type="checkbox" id="myCheck">-->       
+      <label>HTML</label><br>         
+      <input class="language-checkbox-two" type="radio" id="test-one" id="indent" onclick="fun1()">
+      <label for="myCheck">basic</label><br>                           
+      <input class="language-checkbox-two" type="radio" id="test-two" id="indent" onclick="fun2()">
+      <label for="myCheckOne">intermediate</label><br>                    
+      <input class="language-checkbox-two" type="radio" id="test-three" id="indent" onclick="fun3()">  
+      <label for="myCheckTwo">advanced</label><br>                        
+    </div>                                                                          
+    <br>                                          
+
+
+    <div class="fontt">
+      <p id="a" id="fontt" style="display:none">ok fine, go on</p>
+      <p id="b" id="fontt" style="display:none">not bad</p>
+      <p id="c" id="fontt" style="display:none">ok you gonna have a hard time</p>    
+    </div>
 
 <!--CSS-->
-    <div id="two" style="display:none" onclick="fun2()">
+    <div id="two" style="display:none">
       <!-- <input type="checkbox" id="myCheck_one" >-->
-      <label for="myCheck">CSS</label><br>  
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <label>CSS</label><br>  
+      <input class="language-checkbox-two" type="radio" id="test-four" id="indent" onclick="fun4()">
       <label for="myCheck1">basic alignments</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-five" id="indent" onclick="fun5()">
       <label for="myCheck1">flexbox</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-six" id="indent" onclick="fun6()">
       <label for="myCheck1">divs & containers</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-seven" id="indent" onclick="fun7()">
       <label for="myCheck1">animations</label><br>
     </div>  
     <br>
 
+    <div class="fontt">
+      <p id="d" id="fontt" style="display:none">looks fine</p>
+      <p id="e" id="fontt" style="display:none">close call</p>
+      <p id="f" id="fontt" style="display:none">got the bad deal there</p>  
+      <p id="g" id="fontt" style="display:none">your head's gonna spin</p>  
+    </div>
 <!--JAVASCRIPT-->
-    <div id="three" style="display:none" onclick="fun3()">
+    <div id="three" style="display:none">
       <!-- <input type="checkbox" id="myCheck_two"> -->
-      <label for="myCheck">JAVASCRIPT</label><br> 
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <label>JAVASCRIPT</label><br> 
+      <input class="language-checkbox-two" type="radio" id="test-eight" id="indent" onclick="fun8()">
       <label for="myCheck1">Variables, Operators & Constant </label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-nine" id="indent" onclick="fun9()">
       <label for="myCheck1">Loops</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-ten" id="indent" onclick="fun10()">
       <label for="myCheck1">JSON</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-eleven" id="indent" onclick="fun11()">
       <label for="myCheck1">Arrays</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twelve" id="indent" onclick="fun12()">
       <label for="myCheck1"> Strings</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-thirteen" id="indent" onclick="fun13()">
       <label for="myCheck1">Data Types</label><br>
     </div>
     <br>
 
+    <div class="fontt">
+      <p id="h" id="fontt" style="display:none">you're fine</p>
+      <p id="i" id="fontt" style="display:none">beware of javascript</p>
+      <p id="j" id="fontt" style="display:none">things are getting intense here</p>  
+      <p id="k" id="fontt" style="display:none">sleepless nights alert</p>  
+      <p id="l" id="fontt" style="display:none">Don't worry, goods days arn't far</p>  
+      <p id="m" id="fontt" style="display:none">I hope you'll survive</p>  
+    </div>
+
  <!--PYTHON-->
-    <div id="four" style="display:none" onclick="fun4()">
+    <div id="four" style="display:none">
       <!-- <input type="checkbox" id="myCheck_three"> -->
       <label for="myCheck">PYTHON</label><br> 
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
-      <label for="myCheck1">Variable&</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-fourteen" id="indent" onclick="fun14()">
+      <label for="myCheck1">Variable</label><br>
+      <input class="language-checkbox-two" type="radio" id="test-fifteen" id="indent" onclick="fun15()">
       <label for="myCheck1">Data Types</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-sixteen" id="indent" onclick="fun16()">
       <label for="myCheck1">Booleans</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-seventeen" id="indent" onclick="fun17()">
       <label for="myCheck1">Arrays</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-eighteen" id="indent" onclick="fun18()">
       <label for="myCheck1">Iterators </label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-ninteen" id="indent" onclick="fun19()">
       <label for="myCheck1">String Formatting</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twenty" id="indent" onclick="fun20()">
       <label for="myCheck1">Classes&Objects</label><br>
     </div>
     <br>
 
+    <div class="fontt">
+      <p id="n" id="fontt" style="display:none">Why did you even chose python in the first place?</p>
+      <p id="o" id="fontt" style="display:none">Close calls</p>
+      <p id="p" id="fontt" style="display:none">You gonna have headaches</p>  
+      <p id="q" id="fontt" style="display:none">You might consider dropping the project</p>  
+      <p id="r" id="fontt" style="display:none">This is going to kill your social life</p>  
+      <p id="s" id="fontt" style="display:none">My deep condolenses</p>  
+      <p id="t" id="fontt" style="display:none">My the force be with you</p> 
+    </div>
 <!--C++-->
-    <div id="five" style="display:none" onclick="fun5()">
+    <div id="five" style="display:none">
       <!-- <input type="checkbox" id="myCheck_four"> -->
       <label for="myCheck">C++</label><br> 
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twentyOne" id="indent" onclick="fun21()">
       <label for="myCheck1">Comments,Variables & Operators</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twentyTwo" id="indent" onclick="fun22()">
       <label for="myCheck1">Data Types</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twentyThree" id="indent" onclick="fun23()">
       <label for="myCheck1">Arrays & Structures</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twentyFour" id="indent" onclick="fun24()">
       <label for="myCheck1">Pointers</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twentyFive" id="indent" onclick="fun25()">
       <label for="myCheck1">Polymorphism</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twentySix" id="indent" onclick="fun26()">
       <label for="myCheck1">Encapsulation</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twentySeven" id="indent" onclick="fun27()">
       <label for="myCheck1">Functions</label><br>
     </div>  
     <br>
-
+    <div class="fontt">
+        <p id="u" id="fontt" style="display:none">Looks fine</p>
+        <p id="v" id="fontt" style="display:none">Oppssss</p>
+        <p id="w" id="fontt" style="display:none">This doesn't look good</p>  
+        <p id="x" id="fontt" style="display:none">Get ready to have migraines</p>  
+        <p id="y" id="fontt" style="display:none">This doesn't feel great</p>  
+        <p id="z" id="fontt" style="display:none">You have a lot on your plate now (yep I'm giving you a reality check)</p>  
+        <p id="aa" id="fontt" style="display:none">I hope this doesn't kill you</p> 
+    </div>
+    
 <!--PHP-->
-    <div id="six" style="display:none" onclick="fun6()">
+    <div id="six" style="display:none">
       <!-- <input type="checkbox" id="myCheck_five" onclick="myFunction5()"> -->
       <label for="myCheck">PHP</label><br> 
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
-      <label for="myCheck1">Variables,strings&Operators</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-twentyEight" id="indent" onclick="fun28()">
+      <label for="myCheck1">Variables,strings & Operators</label><br>
+      <input class="language-checkbox-two" type="radio" id="test-twentyNine" id="indent" onclick="fun29()">
       <label for="myCheck1">If, else, elseif</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-thirty" id="indent" onclick="fun30()">
       <label for="myCheck1">Arrays & Functions</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
-      <label for="myCheck1">Cookies & Cookies</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-thirtyOne" id="indent" onclick="fun31()">
+      <label for="myCheck1">Cookies</label><br>
+      <input class="language-checkbox-two" type="radio" id="test-thirtyTwo" id="indent" onclick="fun32()">
       <label for="myCheck1">Filters</label><br>
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-thirtyThree" id="indent" onclick="fun33()">
       <label for="myCheck1">Constructor & Destructor</label><br>  
-      <input class="language-checkbox-two" type="checkbox" id="myCheck_1">
+      <input class="language-checkbox-two" type="radio" id="test-thirtyFour" id="indent" onclick="fun34()">
       <label for="myCheck1">Iterables & Namespaces</label><br>  
     </div>
 
+    <div class="fontt">
+      <p id="bb" id="fontt" style="display:none">Basic stuff, go on</p>
+      <p id="cc" id="fontt" style="display:none">Doesn't feel great</p>
+      <p id="dd" id="fontt" style="display:none">Brace yourself</p>  
+      <p id="ee" id="fontt" style="display:none">It's getting compliacted</p>  
+      <p id="ff" id="fontt" style="display:none">All the best for sleep deprived yourself</p>  
+      <p id="gg" id="fontt" style="display:none">Best of luck for all the allnighters you're gonna pull</p>  
+      <p id="hh" id="fontt" style="display:none">May the force be with you</p> 
+    </div>
 
     <br>
     <script src="js/main.js"></script>
@@ -192,12 +239,12 @@ h1{
       }
 
       // const labelTextTwo = [
-      //   'Looks fine',
-      //   'Oppssssss',
-      //   'Alright things are getting very intense here',
-      //   'Alright, looks like you\'re gonna lose your sanity',
-      //   'Never mind, looks like you\'ve already lost your sanity',
-      //   'My deep condolenses'
+      //   'Looks fine, siehbfaihbsdfihab',
+      //   'Oppssssssdsfvadfsadsgafsd',
+      //   'Alright things are getting very intense here and jjuhuashd',
+      //   'Alright, looks like you\'re gonna lose your sanity and fuckkk',
+      //   'Never mind, looks like you\'ve already lost your sanity sadfanosdjn 9890999',
+      //   'My deep condolenses NNN 9029389048'
       // ];
 
       // const labelContainerTwo = document.getElementById('label-container-two');
@@ -395,8 +442,7 @@ h1{
           var dis = document.getElementById("three");
           dis.style.display="block";
         } 
-
-        
+   
         else if (
           langArr.includes('HTML') &&
           langArr.includes('CSS') &&
@@ -1078,18 +1124,18 @@ h1{
           console.log('js')
         }
         else if (
-          langArr.includes('C++')
+          langArr.includes('PYTHON')
         ) {
           var dis = document.getElementById("four");
           dis.style.display="block";
-          console.log('c++')
+          console.log('python')
         }
         else if (
-          langArr.includes('PYTHON')
+          langArr.includes('C++')
         ) {
           var dis = document.getElementById("five");
           dis.style.display="block";
-          console.log('python')
+          console.log('c++')
         }
         else if (
           langArr.includes('PHP')
@@ -1131,9 +1177,7 @@ h1{
         function myFunction1() {
           var checkBox = document.getElementById("myCheck_one");
           var text = document.getElementById("text1");
-          
-          // hideLabels();
-          // lastClickedCheckboxText = text;
+
           if (checkBox.checked == true){
             switchLabel(labelText[1])
           } 
@@ -1174,16 +1218,7 @@ h1{
             switchLabel(labelText[5])
           } 
         }
-        // function fun1(){
-        //   if(console.log = html){
-        //   var dis = document.getElementByClass("one");
-        //    if(dis.style.display==="none"){
-        //     dis.style.display="block";
-        //    } else{
-        //     dis.style.display="none";
-        //    }
-        // }
-        // }
+
     </script>   
 </body>
 </html>
